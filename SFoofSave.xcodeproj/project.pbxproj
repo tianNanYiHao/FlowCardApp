@@ -8,6 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		BF2502F91D5C12DA00D64DE2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2502F81D5C12DA00D64DE2 /* Default-568h@2x.png */; };
+		BF2E45F11D615A7B002FC380 /* SingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2E45EF1D615A7B002FC380 /* SingViewController.m */; };
+		BF2E45F21D615A7B002FC380 /* SingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF2E45F01D615A7B002FC380 /* SingViewController.xib */; };
+		BF2E45F51D61604C002FC380 /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2E45F41D61604C002FC380 /* Tool.m */; };
+		BF2E45F91D618CCA002FC380 /* OpenSureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2E45F71D618CCA002FC380 /* OpenSureViewController.m */; };
+		BF2E45FA1D618CCA002FC380 /* OpenSureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF2E45F81D618CCA002FC380 /* OpenSureViewController.xib */; };
+		BF2E45FE1D619774002FC380 /* OpenUPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2E45FC1D619774002FC380 /* OpenUPViewController.m */; };
+		BF2E45FF1D619774002FC380 /* OpenUPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF2E45FD1D619774002FC380 /* OpenUPViewController.xib */; };
+		BF2E46031D6199BC002FC380 /* BuyCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2E46011D6199BC002FC380 /* BuyCardViewController.m */; };
+		BF2E46041D6199BC002FC380 /* BuyCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF2E46021D6199BC002FC380 /* BuyCardViewController.xib */; };
+		BF2E46081D619E12002FC380 /* BuyCardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2E46061D619E12002FC380 /* BuyCardTableViewCell.m */; };
+		BF2E46091D619E12002FC380 /* BuyCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF2E46071D619E12002FC380 /* BuyCardTableViewCell.xib */; };
+		BF2E460D1D61B39F002FC380 /* PayTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2E460B1D61B39F002FC380 /* PayTableViewCell.m */; };
+		BF2E460E1D61B39F002FC380 /* PayTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF2E460C1D61B39F002FC380 /* PayTableViewCell.xib */; };
+		BF2E46111D61BE9B002FC380 /* PayChooseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2E46101D61BE9B002FC380 /* PayChooseViewController.m */; };
+		BF2E46131D61BFBF002FC380 /* PayChooseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF2E46121D61BFBF002FC380 /* PayChooseViewController.xib */; };
 		BF43E46E1D52EE120094B162 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF43E4541D52EE120094B162 /* Info.plist */; };
 		BF43E46F1D52EE120094B162 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BF43E4561D52EE120094B162 /* MASCompositeConstraint.m */; };
 		BF43E4701D52EE120094B162 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BF43E4591D52EE120094B162 /* MASConstraint.m */; };
@@ -142,7 +157,6 @@
 		BFF151AD1D59897D00315ABD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BFF151AA1D59897D00315ABD /* Default.png */; };
 		BFF151B91D59B98100315ABD /* JFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF151B81D59B98100315ABD /* JFTabBarController.m */; };
 		BFF151BC1D59CC1C00315ABD /* JFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF151BB1D59CC1C00315ABD /* JFNavigationController.m */; };
-		BFF151BF1D59D02100315ABD /* ssViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF151BE1D59D02100315ABD /* ssViewController.m */; };
 		BFFA53C01D542F4A00A3FB20 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BFFA53AA1D542F4A00A3FB20 /* IQKeyboardManager.bundle */; };
 		BFFA53C11D542F4A00A3FB20 /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFA53AC1D542F4A00A3FB20 /* IQKeyboardManager.m */; };
 		BFFA53C21D542F4A00A3FB20 /* IQSegmentedNextPrevious.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFA53B01D542F4A00A3FB20 /* IQSegmentedNextPrevious.m */; };
@@ -404,6 +418,29 @@
 
 /* Begin PBXFileReference section */
 		BF2502F81D5C12DA00D64DE2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BF2E45EE1D615A7B002FC380 /* SingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingViewController.h; sourceTree = "<group>"; };
+		BF2E45EF1D615A7B002FC380 /* SingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingViewController.m; sourceTree = "<group>"; };
+		BF2E45F01D615A7B002FC380 /* SingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SingViewController.xib; sourceTree = "<group>"; };
+		BF2E45F31D61604C002FC380 /* Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
+		BF2E45F41D61604C002FC380 /* Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
+		BF2E45F61D618CCA002FC380 /* OpenSureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenSureViewController.h; sourceTree = "<group>"; };
+		BF2E45F71D618CCA002FC380 /* OpenSureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenSureViewController.m; sourceTree = "<group>"; };
+		BF2E45F81D618CCA002FC380 /* OpenSureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OpenSureViewController.xib; sourceTree = "<group>"; };
+		BF2E45FB1D619774002FC380 /* OpenUPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenUPViewController.h; sourceTree = "<group>"; };
+		BF2E45FC1D619774002FC380 /* OpenUPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenUPViewController.m; sourceTree = "<group>"; };
+		BF2E45FD1D619774002FC380 /* OpenUPViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OpenUPViewController.xib; sourceTree = "<group>"; };
+		BF2E46001D6199BC002FC380 /* BuyCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyCardViewController.h; sourceTree = "<group>"; };
+		BF2E46011D6199BC002FC380 /* BuyCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyCardViewController.m; sourceTree = "<group>"; };
+		BF2E46021D6199BC002FC380 /* BuyCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BuyCardViewController.xib; sourceTree = "<group>"; };
+		BF2E46051D619E12002FC380 /* BuyCardTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyCardTableViewCell.h; sourceTree = "<group>"; };
+		BF2E46061D619E12002FC380 /* BuyCardTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyCardTableViewCell.m; sourceTree = "<group>"; };
+		BF2E46071D619E12002FC380 /* BuyCardTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BuyCardTableViewCell.xib; sourceTree = "<group>"; };
+		BF2E460A1D61B39F002FC380 /* PayTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayTableViewCell.h; sourceTree = "<group>"; };
+		BF2E460B1D61B39F002FC380 /* PayTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayTableViewCell.m; sourceTree = "<group>"; };
+		BF2E460C1D61B39F002FC380 /* PayTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PayTableViewCell.xib; sourceTree = "<group>"; };
+		BF2E460F1D61BE9B002FC380 /* PayChooseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayChooseViewController.h; sourceTree = "<group>"; };
+		BF2E46101D61BE9B002FC380 /* PayChooseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayChooseViewController.m; sourceTree = "<group>"; };
+		BF2E46121D61BFBF002FC380 /* PayChooseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PayChooseViewController.xib; sourceTree = "<group>"; };
 		BF43E4541D52EE120094B162 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF43E4551D52EE120094B162 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		BF43E4561D52EE120094B162 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
@@ -657,8 +694,6 @@
 		BFF151B81D59B98100315ABD /* JFTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFTabBarController.m; sourceTree = "<group>"; };
 		BFF151BA1D59CC1C00315ABD /* JFNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFNavigationController.h; sourceTree = "<group>"; };
 		BFF151BB1D59CC1C00315ABD /* JFNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFNavigationController.m; sourceTree = "<group>"; };
-		BFF151BD1D59D02100315ABD /* ssViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssViewController.h; sourceTree = "<group>"; };
-		BFF151BE1D59D02100315ABD /* ssViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ssViewController.m; sourceTree = "<group>"; };
 		BFFA53AA1D542F4A00A3FB20 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
 		BFFA53AB1D542F4A00A3FB20 /* IQKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManager.h; sourceTree = "<group>"; };
 		BFFA53AC1D542F4A00A3FB20 /* IQKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardManager.m; sourceTree = "<group>"; };
@@ -1324,6 +1359,15 @@
 				BF91957D1D5B2E1300AC5371 /* HomeViewController.h */,
 				BF91957E1D5B2E1300AC5371 /* HomeViewController.m */,
 				BF91957F1D5B2E1300AC5371 /* HomeViewController.xib */,
+				BF2E45F61D618CCA002FC380 /* OpenSureViewController.h */,
+				BF2E45F71D618CCA002FC380 /* OpenSureViewController.m */,
+				BF2E45F81D618CCA002FC380 /* OpenSureViewController.xib */,
+				BF2E45FB1D619774002FC380 /* OpenUPViewController.h */,
+				BF2E45FC1D619774002FC380 /* OpenUPViewController.m */,
+				BF2E45FD1D619774002FC380 /* OpenUPViewController.xib */,
+				BF2E46001D6199BC002FC380 /* BuyCardViewController.h */,
+				BF2E46011D6199BC002FC380 /* BuyCardViewController.m */,
+				BF2E46021D6199BC002FC380 /* BuyCardViewController.xib */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -1338,6 +1382,9 @@
 		BF91957C1D5B2DF600AC5371 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				BF2E46051D619E12002FC380 /* BuyCardTableViewCell.h */,
+				BF2E46061D619E12002FC380 /* BuyCardTableViewCell.m */,
+				BF2E46071D619E12002FC380 /* BuyCardTableViewCell.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -1354,6 +1401,8 @@
 		BFC124E61D51B4E700CAFA12 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				BF2E45F31D61604C002FC380 /* Tool.h */,
+				BF2E45F41D61604C002FC380 /* Tool.m */,
 				BFC125A91D51C92E00CAFA12 /* Util */,
 				BFC1256A1D51C8F100CAFA12 /* model */,
 			);
@@ -1768,6 +1817,9 @@
 		BFF1515B1D59785D00315ABD /* MVC */ = {
 			isa = PBXGroup;
 			children = (
+				BF2E45EE1D615A7B002FC380 /* SingViewController.h */,
+				BF2E45EF1D615A7B002FC380 /* SingViewController.m */,
+				BF2E45F01D615A7B002FC380 /* SingViewController.xib */,
 				BF9195791D5B2DD400AC5371 /* HomeFinder */,
 				BFF1515C1D5978A100315ABD /* PayFinder */,
 				BFF1515E1D5978BD00315ABD /* SearchFinder */,
@@ -1812,8 +1864,9 @@
 				BFF151691D59796600315ABD /* PayViewController.h */,
 				BFF1516A1D59796600315ABD /* PayViewController.m */,
 				BFF1516B1D59796600315ABD /* PayViewController.xib */,
-				BFF151BD1D59D02100315ABD /* ssViewController.h */,
-				BFF151BE1D59D02100315ABD /* ssViewController.m */,
+				BF2E460F1D61BE9B002FC380 /* PayChooseViewController.h */,
+				BF2E46101D61BE9B002FC380 /* PayChooseViewController.m */,
+				BF2E46121D61BFBF002FC380 /* PayChooseViewController.xib */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -1828,6 +1881,9 @@
 		BFF151621D59791F00315ABD /* view */ = {
 			isa = PBXGroup;
 			children = (
+				BF2E460A1D61B39F002FC380 /* PayTableViewCell.h */,
+				BF2E460B1D61B39F002FC380 /* PayTableViewCell.m */,
+				BF2E460C1D61B39F002FC380 /* PayTableViewCell.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -2812,7 +2868,7 @@
 				TargetAttributes = {
 					BF4D45EA1D51809500984ADA = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = YS27375FC6;
+						DevelopmentTeam = 6WZCYN6486;
 					};
 				};
 			};
@@ -2845,6 +2901,9 @@
 				BFF1519E1D59895B00315ABD /* Icon-Small-50.png in Resources */,
 				BFF151A01D59895B00315ABD /* Icon-Small.png in Resources */,
 				BFF1519B1D59895B00315ABD /* Icon-72@2x.png in Resources */,
+				BF2E460E1D61B39F002FC380 /* PayTableViewCell.xib in Resources */,
+				BF2E46091D619E12002FC380 /* BuyCardTableViewCell.xib in Resources */,
+				BF2E46041D6199BC002FC380 /* BuyCardViewController.xib in Resources */,
 				BFF151A61D59895B00315ABD /* iTunesArtwork@2x in Resources */,
 				BFF151AD1D59897D00315ABD /* Default.png in Resources */,
 				BFF151A11D59895B00315ABD /* Icon-Small@2x.png in Resources */,
@@ -2852,6 +2911,7 @@
 				BFFA55FD1D543AE800A3FB20 /* ScanResultViewController.xib in Resources */,
 				BFF151961D59895B00315ABD /* Icon-40@3x.png in Resources */,
 				BF9195811D5B2E1300AC5371 /* HomeViewController.xib in Resources */,
+				BF2E45FF1D619774002FC380 /* OpenUPViewController.xib in Resources */,
 				BF43E46E1D52EE120094B162 /* Info.plist in Resources */,
 				BFF151991D59895B00315ABD /* Icon-60@3x.png in Resources */,
 				BFF1516D1D59796600315ABD /* PayViewController.xib in Resources */,
@@ -2863,10 +2923,12 @@
 				BF4D45F91D51809500984ADA /* Main.storyboard in Resources */,
 				BFF151981D59895B00315ABD /* Icon-60@2x.png in Resources */,
 				BFF151941D59895B00315ABD /* Icon-40.png in Resources */,
+				BF2E46131D61BFBF002FC380 /* PayChooseViewController.xib in Resources */,
 				BFF1519A1D59895B00315ABD /* Icon-72.png in Resources */,
 				BFF151971D59895B00315ABD /* Icon-60.png in Resources */,
 				BFFA55EE1D543AE800A3FB20 /* LICENSE in Resources */,
 				BFF1519D1D59895B00315ABD /* Icon-76@2x.png in Resources */,
+				BF2E45FA1D618CCA002FC380 /* OpenSureViewController.xib in Resources */,
 				BFF1519F1D59895B00315ABD /* Icon-Small-50@2x.png in Resources */,
 				BFF151721D59797A00315ABD /* SearchViewController.xib in Resources */,
 				BFF1519C1D59895B00315ABD /* Icon-76.png in Resources */,
@@ -2874,6 +2936,7 @@
 				BFFA53C01D542F4A00A3FB20 /* IQKeyboardManager.bundle in Resources */,
 				BF2502F91D5C12DA00D64DE2 /* Default-568h@2x.png in Resources */,
 				BFC126001D51C9F000CAFA12 /* MJRefresh.bundle in Resources */,
+				BF2E45F21D615A7B002FC380 /* SingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2895,6 +2958,7 @@
 				BFFA56741D543AE800A3FB20 /* ZXAI01320xDecoder.m in Sources */,
 				BFFA565A1D543AE800A3FB20 /* ZXDataMatrixDecodedBitStreamParser.m in Sources */,
 				BF43E4761D52EE120094B162 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				BF2E45FE1D619774002FC380 /* OpenUPViewController.m in Sources */,
 				BF43E4741D52EE120094B162 /* MASViewConstraint.m in Sources */,
 				BFFA56131D543AE800A3FB20 /* ZXBookmarkDoCoMoResultParser.m in Sources */,
 				BFFA561A1D543AE800A3FB20 /* ZXGeoParsedResult.m in Sources */,
@@ -2910,6 +2974,7 @@
 				BF43E4771D52EE120094B162 /* View+MASAdditions.m in Sources */,
 				BFC125C41D51C92E00CAFA12 /* Utils.m in Sources */,
 				BFFA55FA1D543AE800A3FB20 /* LBXZXCapture.m in Sources */,
+				BF2E45F51D61604C002FC380 /* Tool.m in Sources */,
 				BFFA569D1D543AE800A3FB20 /* ZXMultiFormatOneDReader.m in Sources */,
 				BFFA56011D543AE800A3FB20 /* README.md in Sources */,
 				BFFA565C1D543AE800A3FB20 /* ZXDataMatrixVersion.m in Sources */,
@@ -2993,6 +3058,7 @@
 				BFFA56091D543AE800A3FB20 /* ZXAztecState.m in Sources */,
 				BFC1262C1D51CA1900CAFA12 /* SDWebImageDownloader.m in Sources */,
 				BFFA56C61D543AE800A3FB20 /* ZXQRCodeDecoder.m in Sources */,
+				BF2E46081D619E12002FC380 /* BuyCardTableViewCell.m in Sources */,
 				BFFA564B1D543AE800A3FB20 /* ZXBinarizer.m in Sources */,
 				BF9195801D5B2E1300AC5371 /* HomeViewController.m in Sources */,
 				BFC1254F1D51C87600CAFA12 /* AFHTTPRequestOperation.m in Sources */,
@@ -3103,6 +3169,7 @@
 				BFC127031D51E85500CAFA12 /* TAAbstractDotView.m in Sources */,
 				BFFA56D01D543AE800A3FB20 /* ZXQRCodeFinderPatternFinder.m in Sources */,
 				BFFA56251D543AE800A3FB20 /* ZXSMTPResultParser.m in Sources */,
+				BF2E46111D61BE9B002FC380 /* PayChooseViewController.m in Sources */,
 				BFFA566A1D543AE800A3FB20 /* ZXDataMatrixReader.m in Sources */,
 				BFFA56221D543AE800A3FB20 /* ZXSMSMMSResultParser.m in Sources */,
 				BFFA56761D543AE800A3FB20 /* ZXAI01393xDecoder.m in Sources */,
@@ -3135,7 +3202,6 @@
 				BFFA56191D543AE800A3FB20 /* ZXExpandedProductResultParser.m in Sources */,
 				BFFA56D31D543AE800A3FB20 /* ZXQRCodeBlockPair.m in Sources */,
 				BFC127771D51EE4000CAFA12 /* BoRefreshHeader.m in Sources */,
-				BFF151BF1D59D02100315ABD /* ssViewController.m in Sources */,
 				BFFA55F61D543AE800A3FB20 /* LBXScanView.m in Sources */,
 				BFF151B91D59B98100315ABD /* JFTabBarController.m in Sources */,
 				BFFA56D81D543AE800A3FB20 /* ZXMultiFinderPatternFinder.m in Sources */,
@@ -3147,6 +3213,7 @@
 				BFC127091D51E85500CAFA12 /* UIView+SDExtension.m in Sources */,
 				BFC125991D51C8F100CAFA12 /* DBManger.m in Sources */,
 				BFFA56071D543AE800A3FB20 /* ZXAztecHighLevelEncoder.m in Sources */,
+				BF2E46031D6199BC002FC380 /* BuyCardViewController.m in Sources */,
 				BFFA56CF1D543AE800A3FB20 /* ZXQRCodeFinderPattern.m in Sources */,
 				BFFA56B51D543AE800A3FB20 /* ZXPDF417ScanningDecoder.m in Sources */,
 				BFFA56811D543AE800A3FB20 /* ZXRSSExpandedDecodedNumeric.m in Sources */,
@@ -3162,10 +3229,12 @@
 				BFFA55F81D543AE800A3FB20 /* LBXScanViewStyle.m in Sources */,
 				BFC125161D51C6F900CAFA12 /* PSTAlertController.m in Sources */,
 				BFFA56951D543AE800A3FB20 /* ZXCode93Reader.m in Sources */,
+				BF2E460D1D61B39F002FC380 /* PayTableViewCell.m in Sources */,
 				BFFA568D1D543AE800A3FB20 /* ZXRSSPair.m in Sources */,
 				BFFA56CD1D543AE800A3FB20 /* ZXQRCodeAlignmentPatternFinder.m in Sources */,
 				BFC125531D51C87600CAFA12 /* AFSecurityPolicy.m in Sources */,
 				BFFA56C01D543AE800A3FB20 /* ZXPDF417ResultMetadata.m in Sources */,
+				BF2E45F91D618CCA002FC380 /* OpenSureViewController.m in Sources */,
 				BFC125BE1D51C92E00CAFA12 /* NSString+URLEncoding.m in Sources */,
 				BFFA568B1D543AE800A3FB20 /* ZXRSSDataCharacter.m in Sources */,
 				BF43E4751D52EE120094B162 /* NSArray+MASAdditions.m in Sources */,
@@ -3179,6 +3248,7 @@
 				BFFA56701D543AE800A3FB20 /* ZXByQuadrantReader.m in Sources */,
 				BFFA56DD1D543AE800A3FB20 /* ZXMultiFormatWriter.m in Sources */,
 				BFFA564F1D543AE800A3FB20 /* ZXDimension.m in Sources */,
+				BF2E45F11D615A7B002FC380 /* SingViewController.m in Sources */,
 				BFFA56541D543AE800A3FB20 /* ZXPlanarYUVLuminanceSource.m in Sources */,
 				BFFA56911D543AE800A3FB20 /* ZXCode128Reader.m in Sources */,
 				BFC125C31D51C92E00CAFA12 /* UIDevice+iOS7AndIphone5.m in Sources */,
@@ -3302,6 +3372,7 @@
 				PROVISIONING_PROFILE = "8243d558-dd65-4485-821a-1441674ceaa6";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
@@ -3343,6 +3414,7 @@
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};
@@ -3361,9 +3433,11 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/SFoofSave/3rd/ZBarSDK-master",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiefengPay.SFood;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "8243d558-dd65-4485-821a-1441674ceaa6";
+				VALID_ARCHS = "armv7 arm64 armv7s";
 			};
 			name = Debug;
 		};
@@ -3382,9 +3456,11 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/SFoofSave/3rd/ZBarSDK-master",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiefengPay.SFood;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "8243d558-dd65-4485-821a-1441674ceaa6";
+				VALID_ARCHS = "armv7 arm64 armv7s";
 			};
 			name = Release;
 		};

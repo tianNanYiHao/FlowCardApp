@@ -7,8 +7,12 @@
 //
 
 #import "PayViewController.h"
-#import "ssViewController.h"
-@interface PayViewController ()
+#import "PayTableViewCell.h"
+#import "PayChooseViewController.h"
+
+
+@interface PayViewController ()<UITableViewDataSource,UITableViewDelegate>
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
 
@@ -18,18 +22,39 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     self.navigationItem.title = @"缴费";
-    self.view.backgroundColor = [UIColor whiteColor];
     
+    
+    
+    
+    _tableView.delegate = self;
+    _tableView.dataSource = self;
+    [_tableView registerNib:[UINib nibWithNibName:@"PayTableViewCell" bundle:nil] forCellReuseIdentifier:@"PayTableViewCell"];
+    _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
 }
-- (IBAction)btn1:(id)sender {
-    ssViewController *H=  [[ssViewController alloc] init];
-    H.hidesBottomBarWhenPushed = YES;
-    [self.navigationController pushViewController:H animated:YES];
-    
-    
-}
-- (IBAction)btn4:(id)sender {
 
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return 2;
+}
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return 100;
+}
+
+-(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    static NSString *ID = @"PayTableViewCell";
+    PayTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    
+//    cell.stateLab.text = @"失败";
+//    cell.stateImg.image = [UIImage imageNamed:@"停机ICON"];
+    
+    return cell;
+    
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    PayChooseViewController *payChoose = [[PayChooseViewController alloc] initWithNibName:@"PayChooseViewController" bundle:nil];
+    [self.navigationController pushViewController:payChoose animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

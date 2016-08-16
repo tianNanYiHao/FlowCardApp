@@ -22,9 +22,8 @@
                                                  NSFontAttributeName:[UIFont systemFontOfSize:21],
                                                  }];
     self.navigationBar.tintColor = [UIColor whiteColor];
+    self.navigationBar.barTintColor = [Common hexStringToColor:@"0D5FF7"];
     self.navigationBar.translucent = NO;
-    self.navigationBar.barTintColor = [Common hexStringToColor:@"4578F5"];
-    
     
 //    UIImageView *backView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"返回"]];
 //    backView.frame = CGRectMake(0, 0, 27, 27);

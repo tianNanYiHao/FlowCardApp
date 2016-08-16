@@ -26,19 +26,44 @@
                             </constraints>
                         </imageView>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="购卡" translatesAutoresizingMaskIntoConstraints="NO" id="ReZ-PO-Ubq">
-                            <rect key="frame" x="10" y="244" width="300" height="244"/>
+                            <rect key="frame" x="10" y="244" width="300" height="224"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="224" id="kGe-8N-Kbf"/>
+                            </constraints>
                         </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c4f-hO-bRD">
+                            <rect key="frame" x="10" y="10" width="302" height="224"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <state key="normal" title="我要开卡">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="openCard:" destination="-1" eventType="touchUpInside" id="UO7-Lf-qrp"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VL9-wS-g97">
+                            <rect key="frame" x="10" y="244" width="302" height="224"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <state key="normal" title="我要购卡">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="buyCard:" destination="-1" eventType="touchUpInside" id="mUs-0i-GYj"/>
+                            </connections>
+                        </button>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstItem="FLh-Hy-zO9" firstAttribute="leading" secondItem="YDs-rV-OHL" secondAttribute="leading" constant="10" id="3B2-Qe-YFV"/>
                         <constraint firstAttribute="trailing" secondItem="FLh-Hy-zO9" secondAttribute="trailing" constant="10" id="3bP-zb-Vtm"/>
-                        <constraint firstItem="FLh-Hy-zO9" firstAttribute="leading" secondItem="ReZ-PO-Ubq" secondAttribute="leading" id="MOP-1t-eC4"/>
-                        <constraint firstItem="ReZ-PO-Ubq" firstAttribute="top" secondItem="FLh-Hy-zO9" secondAttribute="bottom" constant="10" id="gz1-0n-kAU"/>
-                        <constraint firstAttribute="trailing" secondItem="ReZ-PO-Ubq" secondAttribute="trailing" constant="10" id="kPw-is-iBE"/>
-                        <constraint firstItem="ReZ-PO-Ubq" firstAttribute="leading" secondItem="YDs-rV-OHL" secondAttribute="leading" constant="10" id="kz6-4Z-WxV"/>
+                        <constraint firstItem="ReZ-PO-Ubq" firstAttribute="top" secondItem="YDs-rV-OHL" secondAttribute="top" constant="244" id="6ty-gd-ajb"/>
+                        <constraint firstItem="ReZ-PO-Ubq" firstAttribute="top" secondItem="c4f-hO-bRD" secondAttribute="bottom" constant="10" id="FqF-9L-n5h"/>
+                        <constraint firstItem="ReZ-PO-Ubq" firstAttribute="trailing" secondItem="FLh-Hy-zO9" secondAttribute="trailing" id="HzF-8s-19M"/>
+                        <constraint firstAttribute="trailing" secondItem="c4f-hO-bRD" secondAttribute="trailing" constant="8" id="NQe-0V-Zgc"/>
+                        <constraint firstItem="ReZ-PO-Ubq" firstAttribute="leading" secondItem="FLh-Hy-zO9" secondAttribute="leading" id="c8T-Lf-i6C"/>
+                        <constraint firstItem="c4f-hO-bRD" firstAttribute="leading" secondItem="YDs-rV-OHL" secondAttribute="leading" constant="10" id="gnD-rL-Htp"/>
+                        <constraint firstItem="c4f-hO-bRD" firstAttribute="top" secondItem="YDs-rV-OHL" secondAttribute="top" constant="10" id="hor-ki-IBi"/>
                         <constraint firstItem="FLh-Hy-zO9" firstAttribute="top" secondItem="YDs-rV-OHL" secondAttribute="top" constant="10" id="vV0-yL-4Sp"/>
-                        <constraint firstItem="FLh-Hy-zO9" firstAttribute="trailing" secondItem="ReZ-PO-Ubq" secondAttribute="trailing" id="yff-D4-xKF"/>
                     </constraints>
                 </view>
             </subviews>
@@ -49,6 +74,7 @@
                 <constraint firstAttribute="bottom" secondItem="YDs-rV-OHL" secondAttribute="bottom" id="lBQ-2P-N59"/>
             </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="141" y="378"/>
         </view>
     </objects>
     <resources>

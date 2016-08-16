@@ -7,6 +7,9 @@
 //
 
 #import "HomeViewController.h"
+#import "SingViewController.h"
+#import "OpenSureViewController.h"//开卡确认
+#import "BuyCardViewController.h" //购卡
 
 @interface HomeViewController ()
 
@@ -17,8 +20,43 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    self.navigationItem.title = @"缴费";
+    self.navigationItem.title = @"首页";
     self.view.backgroundColor = [UIColor whiteColor];
+    
+
+    
+    
+    
+}
+
+//开卡
+- (IBAction)openCard:(id)sender {
+    if ([[Tool objectforkey:isSingIn] isEqualToString:SingNo]) {
+        SingViewController *sing = [[SingViewController alloc] initWithNibName:@"SingViewController" bundle:nil];
+      [self presentViewController:sing animated:YES completion:nil];
+    }else{
+        OpenSureViewController *sure = [[OpenSureViewController alloc] initWithNibName:@"OpenSureViewController" bundle:nil];
+        sure.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:sure animated:YES];
+    }
+
+    
+}
+
+
+//购卡
+- (IBAction)buyCard:(id)sender {
+    if ([[Tool objectforkey:isSingIn] isEqualToString:SingNo]) {
+        SingViewController *sing = [[SingViewController alloc] initWithNibName:@"SingViewController" bundle:nil];
+        [self presentViewController:sing animated:YES completion:nil];
+    }else{
+        BuyCardViewController *card = [[BuyCardViewController alloc] initWithNibName:@"BuyCardViewController" bundle:nil];
+        card.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:card animated:YES];
+    }
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

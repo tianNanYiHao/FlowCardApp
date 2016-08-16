@@ -62,6 +62,8 @@
     _window.rootViewController = tabBarC;
     [_window makeKeyWindow];
     
+    //登录
+    [Tool setobject:SingNo forkey:isSingIn];
     
     
     

@@ -1,22 +1,23 @@
 //
-//  ssViewController.m
+//  OpenUPViewController.m
 //  SFoofSave
 //
-//  Created by Lff on 16/8/9.
+//  Created by Lff on 16/8/15.
 //  Copyright © 2016年 Lff. All rights reserved.
 //
 
-#import "ssViewController.h"
+#import "OpenUPViewController.h"
 
-@interface ssViewController ()
+@interface OpenUPViewController ()
 
 @end
 
-@implementation ssViewController
+@implementation OpenUPViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    // Do any additional setup after loading the view from its nib.
+    self.navigationItem.title  = @"开通";
     
     
 }
