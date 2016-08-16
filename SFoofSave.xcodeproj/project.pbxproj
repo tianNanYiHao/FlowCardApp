@@ -426,6 +426,7 @@
 		BFFA673D1D62F7A100EBC28D /* KeepNumViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFFA673B1D62F7A100EBC28D /* KeepNumViewController.xib */; };
 		BFFA67411D63021B00EBC28D /* SearchChooseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFA673F1D63021B00EBC28D /* SearchChooseViewController.m */; };
 		BFFA67421D63021B00EBC28D /* SearchChooseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFFA67401D63021B00EBC28D /* SearchChooseViewController.xib */; };
+		BFFA674B1D6308C700EBC28D /* UIViewController+LeftItemSSL.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFA674A1D6308C700EBC28D /* UIViewController+LeftItemSSL.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1251,6 +1252,8 @@
 		BFFA673E1D63021B00EBC28D /* SearchChooseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchChooseViewController.h; sourceTree = "<group>"; };
 		BFFA673F1D63021B00EBC28D /* SearchChooseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchChooseViewController.m; sourceTree = "<group>"; };
 		BFFA67401D63021B00EBC28D /* SearchChooseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchChooseViewController.xib; sourceTree = "<group>"; };
+		BFFA67491D6308C700EBC28D /* UIViewController+LeftItemSSL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LeftItemSSL.h"; sourceTree = "<group>"; };
+		BFFA674A1D6308C700EBC28D /* UIViewController+LeftItemSSL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LeftItemSSL.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1840,6 +1843,8 @@
 			children = (
 				BFF151BA1D59CC1C00315ABD /* JFNavigationController.h */,
 				BFF151BB1D59CC1C00315ABD /* JFNavigationController.m */,
+				BFFA67491D6308C700EBC28D /* UIViewController+LeftItemSSL.h */,
+				BFFA674A1D6308C700EBC28D /* UIViewController+LeftItemSSL.m */,
 			);
 			path = SelfNavigationController;
 			sourceTree = "<group>";
@@ -3369,6 +3374,7 @@
 				BFFA56A11D543AE800A3FB20 /* ZXUPCAReader.m in Sources */,
 				BFC126441D51CC9600CAFA12 /* FMDatabasePool.m in Sources */,
 				BFFA67411D63021B00EBC28D /* SearchChooseViewController.m in Sources */,
+				BFFA674B1D6308C700EBC28D /* UIViewController+LeftItemSSL.m in Sources */,
 				BFFA56A71D543AE800A3FB20 /* ZXUPCEANWriter.m in Sources */,
 				BFFA561F1D543AE800A3FB20 /* ZXProductParsedResult.m in Sources */,
 			);

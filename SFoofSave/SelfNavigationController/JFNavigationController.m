@@ -25,15 +25,10 @@
     self.navigationBar.barTintColor = [Common hexStringToColor:@"0D5FF7"];
     self.navigationBar.translucent = NO;
     
-//    UIImageView *backView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"返回"]];
-//    backView.frame = CGRectMake(0, 0, 27, 27);
-//    UIBarButtonItem *leftItem = [[UIBarButtonItem alloc] initWithImage:backView.image style:UIBarButtonItemStylePlain target:self action:@selector(goBack)];
-//    self.navigationItem.leftBarButtonItem = leftItem;
+
     
 }
-- (void)goBack{
-    [self.navigationController popViewControllerAnimated:YES];
-}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

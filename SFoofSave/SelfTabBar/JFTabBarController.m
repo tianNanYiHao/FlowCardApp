@@ -21,8 +21,7 @@
     
     NSLog(@"11%@",self.view.subviews); //能打印出所有子视图,和其frame
     self.delegate = self;
-    
-    
+
     
 }
 
