@@ -77,7 +77,8 @@
 #pragma mark - View lifecycle
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
+     [super viewDidLoad];
+    [self changeLeftIetm];
 //    _root = quick;
 //    _right = setupCtrl;
     [self setRootViewController:_root]; // reset root

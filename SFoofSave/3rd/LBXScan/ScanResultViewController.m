@@ -18,7 +18,8 @@
 @implementation ScanResultViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
+     [super viewDidLoad];
+    [self changeLeftIetm];
     // Do any additional setup after loading the view from its nib.
     if ([self respondsToSelector:@selector(setEdgesForExtendedLayout:)]) {
         

@@ -16,7 +16,7 @@
 @implementation JFTabBarController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
+     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
     NSLog(@"11%@",self.view.subviews); //能打印出所有子视图,和其frame

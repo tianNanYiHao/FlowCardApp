@@ -19,7 +19,8 @@
 @implementation PackagesAddViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
+     [super viewDidLoad];
+    [self changeLeftIetm];
     // Do any additional setup after loading the view from its nib.
     self.navigationItem.title = @"套餐续费";
     _collectionVIew .delegate = self;

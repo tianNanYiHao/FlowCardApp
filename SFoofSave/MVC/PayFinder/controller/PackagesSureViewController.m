@@ -20,7 +20,8 @@
 @implementation PackagesSureViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
+     [super viewDidLoad];
+    [self changeLeftIetm];
     // Do any additional setup after loading the view from its nib.
     
     _moneyLab.text = _money;

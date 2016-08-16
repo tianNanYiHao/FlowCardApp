@@ -25,7 +25,8 @@
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
+     [super viewDidLoad];
+    [self changeLeftIetm];
     // Do any additional setup after loading the view.
     
     if ([self respondsToSelector:@selector(setEdgesForExtendedLayout:)]) {

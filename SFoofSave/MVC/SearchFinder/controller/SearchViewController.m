@@ -18,7 +18,7 @@
 @implementation SearchViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
+     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
     self.navigationItem.title = @"查询";

@@ -19,7 +19,8 @@
 @implementation PayChooseViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
+     [super viewDidLoad];
+    [self changeLeftIetm];
     // Do any additional setup after loading the view.
     //套餐续费+购买流量包+停机保号
     self.navigationItem.title = @"缴费选择";
