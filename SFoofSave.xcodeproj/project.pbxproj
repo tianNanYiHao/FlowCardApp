@@ -424,6 +424,8 @@
 		BFFA67381D62EA2800EBC28D /* FlowBagAddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFFA67361D62EA2800EBC28D /* FlowBagAddViewController.xib */; };
 		BFFA673C1D62F7A100EBC28D /* KeepNumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFA673A1D62F7A100EBC28D /* KeepNumViewController.m */; };
 		BFFA673D1D62F7A100EBC28D /* KeepNumViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFFA673B1D62F7A100EBC28D /* KeepNumViewController.xib */; };
+		BFFA67411D63021B00EBC28D /* SearchChooseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFA673F1D63021B00EBC28D /* SearchChooseViewController.m */; };
+		BFFA67421D63021B00EBC28D /* SearchChooseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFFA67401D63021B00EBC28D /* SearchChooseViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1246,6 +1248,9 @@
 		BFFA67391D62F7A100EBC28D /* KeepNumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeepNumViewController.h; sourceTree = "<group>"; };
 		BFFA673A1D62F7A100EBC28D /* KeepNumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeepNumViewController.m; sourceTree = "<group>"; };
 		BFFA673B1D62F7A100EBC28D /* KeepNumViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeepNumViewController.xib; sourceTree = "<group>"; };
+		BFFA673E1D63021B00EBC28D /* SearchChooseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchChooseViewController.h; sourceTree = "<group>"; };
+		BFFA673F1D63021B00EBC28D /* SearchChooseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchChooseViewController.m; sourceTree = "<group>"; };
+		BFFA67401D63021B00EBC28D /* SearchChooseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchChooseViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1934,6 +1939,9 @@
 				BFF1516E1D59797A00315ABD /* SearchViewController.h */,
 				BFF1516F1D59797A00315ABD /* SearchViewController.m */,
 				BFF151701D59797A00315ABD /* SearchViewController.xib */,
+				BFFA673E1D63021B00EBC28D /* SearchChooseViewController.h */,
+				BFFA673F1D63021B00EBC28D /* SearchChooseViewController.m */,
+				BFFA67401D63021B00EBC28D /* SearchChooseViewController.xib */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -2956,6 +2964,7 @@
 				BF2E45FF1D619774002FC380 /* OpenUPViewController.xib in Resources */,
 				BF43E46E1D52EE120094B162 /* Info.plist in Resources */,
 				BFF151991D59895B00315ABD /* Icon-60@3x.png in Resources */,
+				BFFA67421D63021B00EBC28D /* SearchChooseViewController.xib in Resources */,
 				BFF1516D1D59796600315ABD /* PayViewController.xib in Resources */,
 				BFF151A51D59895B00315ABD /* iTunesArtwork in Resources */,
 				BFFA67241D62BE3C00EBC28D /* PackagesAddViewController.xib in Resources */,
@@ -3359,6 +3368,7 @@
 				BFFA56501D543AE800A3FB20 /* ZXEncodeHints.m in Sources */,
 				BFFA56A11D543AE800A3FB20 /* ZXUPCAReader.m in Sources */,
 				BFC126441D51CC9600CAFA12 /* FMDatabasePool.m in Sources */,
+				BFFA67411D63021B00EBC28D /* SearchChooseViewController.m in Sources */,
 				BFFA56A71D543AE800A3FB20 /* ZXUPCEANWriter.m in Sources */,
 				BFFA561F1D543AE800A3FB20 /* ZXProductParsedResult.m in Sources */,
 			);

@@ -10,11 +10,8 @@
 
 @interface PackagesSureViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UILabel *moneyLab;
-@property (weak, nonatomic) IBOutlet UILabel *numBerLab;
-@property (weak, nonatomic) IBOutlet UILabel *describLab;
-@property (weak, nonatomic) IBOutlet UILabel *validDateLab;
-
-
-
+@property (nonatomic,strong) NSString *money;
+@property (nonatomic,strong) NSString *numBer;
+@property (nonatomic,strong) NSString *describ;
+@property (nonatomic,strong) NSString *validDate;
 @end

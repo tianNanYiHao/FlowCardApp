@@ -56,10 +56,11 @@
 }
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
     PackagesSureViewController *h = [[PackagesSureViewController alloc] initWithNibName:@"PackagesSureViewController" bundle:nil];
-    h.moneyLab.text = @"流量金额: ¥ 50";
-    h.numBerLab.text = @"*****1874";
-    h.describLab.text = @"流量额度: 300M";
-    h.validDateLab.text = @"有效期:2018/06/14";
+    h.navigationItem.title = @"流量支付";
+    h.money = @"流量金额: ¥ 50";
+    h.numBer = @"*****1874";
+    h.describ = @"流量额度: 300M";
+    h.validDate = @"有效期:2018/06/14";
     [self.navigationController pushViewController:h animated:YES];
     
     

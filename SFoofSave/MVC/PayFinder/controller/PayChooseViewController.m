@@ -9,6 +9,7 @@
 #import "PayChooseViewController.h"
 #import "PackagesAddViewController.h"
 #import "FlowBagAddViewController.h"
+#import "KeepNumViewController.h"
 
 
 @interface PayChooseViewController ()
@@ -47,6 +48,9 @@
 }
 //停机保号
 - (IBAction)keepNum:(id)sender {
+    KeepNumViewController *k = [[KeepNumViewController alloc] initWithNibName:@"KeepNumViewController" bundle:nil];
+    k.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:k animated:YES];
 }
 
 

@@ -11,7 +11,10 @@
 @interface PackagesSureViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *btnWeChat;
 @property (weak, nonatomic) IBOutlet UIButton *btnZFB;
-
+@property (weak, nonatomic) IBOutlet UILabel *moneyLab;
+@property (weak, nonatomic) IBOutlet UILabel *numBerLab;
+@property (weak, nonatomic) IBOutlet UILabel *describLab;
+@property (weak, nonatomic) IBOutlet UILabel *validDateLab;
 @end
 
 @implementation PackagesSureViewController
@@ -19,7 +22,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    self.navigationItem.title = @"套餐续费支付";
+    
+    _moneyLab.text = _money;
+    _numBerLab.text = _numBer;
+    _describLab.text = _describ;
+    _validDateLab.text = _validDate;
+    
+    
     _btnWeChat.selected = YES;
 }
 

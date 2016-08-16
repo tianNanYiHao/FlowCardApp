@@ -7,8 +7,11 @@
 //
 
 #import "SearchViewController.h"
+#import "PayTableViewCell.h"
+#import "SearchChooseViewController.h"
 
-@interface SearchViewController ()
+@interface SearchViewController ()<UITableViewDelegate,UITableViewDataSource>
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
 
@@ -20,10 +23,45 @@
     
     self.navigationItem.title = @"查询";
     
+    _tableView.delegate = self;
+    _tableView.dataSource = self;
+    [_tableView registerNib:[UINib nibWithNibName:@"PayTableViewCell" bundle:nil] forCellReuseIdentifier:@"PayTableViewCell"];
+    _tableView.separatorStyle = UITableViewCellAccessoryNone;
+    
+    
+    
+    
+    
 }
-- (IBAction)btn2:(id)sender {
 
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return 2;
 }
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return 100;
+}
+- (UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    static NSString *ID = @"PayTableViewCell";
+    PayTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    cell.stateLab.text = @"失败";
+    cell.stateImg.image = [UIImage imageNamed:@"停机ICON"];
+    cell.stateLab.textColor = [UIColor redColor];
+    return cell;
+    
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    SearchChooseViewController *s = [[SearchChooseViewController alloc] initWithNibName:@"SearchChooseViewController" bundle:nil];
+    
+    s.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:s animated:YES];
+    
+}
+
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

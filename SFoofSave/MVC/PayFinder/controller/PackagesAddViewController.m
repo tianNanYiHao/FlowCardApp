@@ -48,6 +48,11 @@
 }
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
     PackagesSureViewController *h =  [[PackagesSureViewController alloc] initWithNibName:@"PackagesSureViewController" bundle:nil];
+    h.navigationItem.title = @"续费支付";
+    h.money = @"续费金额: ¥ 50";
+    h.numBer = @"卡号: *******1584";
+    h.describ = @"续费月数:3个月";
+    h.validDate = @"有效期:2017/06/15";
     [self.navigationController pushViewController:h animated:YES];
     
 }

@@ -57,12 +57,15 @@
     
 }
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
+    
+    
     PackagesSureViewController *h = [[PackagesSureViewController
                                       alloc] initWithNibName:@"PackagesSureViewController" bundle:nil];
-    h.moneyLab.text = @"保号金额: ¥ 30";
-    h.numBerLab.text = @"*****1874";
-    h.describLab.text = @"保号时长: 2个月";
-    h.validDateLab.text = @"有效期:2018/06/14";
+    h.navigationItem.title = @"保号支付";
+    h.money = @"保号金额: ¥ 30";
+    h.numBer = @"*****1874";
+    h.describ = @"保号时长: 2个月";
+    h.validDate = @"有效期:2018/06/14";
     [self.navigationController pushViewController:h animated:YES];
     
 }
