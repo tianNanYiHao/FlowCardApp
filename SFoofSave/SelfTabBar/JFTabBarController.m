@@ -7,8 +7,9 @@
 //
 
 #import "JFTabBarController.h"
+#import "SingViewController.h"
 
-@interface JFTabBarController ()
+@interface JFTabBarController ()<UITabBarControllerDelegate>
 
 @end
 
@@ -19,8 +20,23 @@
     // Do any additional setup after loading the view.
     
     NSLog(@"11%@",self.view.subviews); //能打印出所有子视图,和其frame
+    self.delegate = self;
     
     
+    
+}
+
+
+- (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController{
+    
+    NSLog(@"index %ld" , tabBarController.selectedIndex);
+    
+    if ( [[Tool objectforkey:isSingIn] isEqualToString:SingNo]) {
+        SingViewController *s = [[SingViewController alloc] initWithNibName:@"SingViewController" bundle:nil];
+        [self presentViewController:s animated:YES completion:nil];
+    }else{
+        // do nothing
+    }
     
 }
 

@@ -7,6 +7,9 @@
 //
 
 #import "PayChooseViewController.h"
+#import "PackagesAddViewController.h"
+#import "FlowBagAddViewController.h"
+
 
 @interface PayChooseViewController ()
 
@@ -17,6 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    //套餐续费+购买流量包+停机保号
     self.navigationItem.title = @"缴费选择";
 
     
@@ -26,6 +30,25 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+//套餐续费
+- (IBAction)packagesClick:(id)sender {
+    PackagesAddViewController *h = [[PackagesAddViewController alloc] initWithNibName:@"PackagesAddViewController" bundle:nil];
+    h.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:h animated:YES];
+}
+//购买流量包
+- (IBAction)flowBagClick:(id)sender {
+    FlowBagAddViewController *f = [[FlowBagAddViewController alloc] initWithNibName:@"FlowBagAddViewController" bundle:nil];
+    f.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:f animated:YES];
+    
+    
+}
+//停机保号
+- (IBAction)keepNum:(id)sender {
+}
+
 
 /*
 #pragma mark - Navigation

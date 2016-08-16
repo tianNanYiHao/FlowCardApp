@@ -414,6 +414,16 @@
 		BFFA56DE1D543AE800A3FB20 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BFFA55E51D543AE800A3FB20 /* README.md */; };
 		BFFA56DF1D543AE800A3FB20 /* UIImageView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFA55E91D543AE800A3FB20 /* UIImageView+CornerRadius.m */; };
 		BFFA56EC1D5471DB00A3FB20 /* DDMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFA56EB1D5471DB00A3FB20 /* DDMenuController.m */; };
+		BFFA67231D62BE3C00EBC28D /* PackagesAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFA67211D62BE3C00EBC28D /* PackagesAddViewController.m */; };
+		BFFA67241D62BE3C00EBC28D /* PackagesAddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFFA67221D62BE3C00EBC28D /* PackagesAddViewController.xib */; };
+		BFFA67281D62C02800EBC28D /* PackageCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFA67261D62C02800EBC28D /* PackageCollectionCell.m */; };
+		BFFA67291D62C02800EBC28D /* PackageCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFFA67271D62C02800EBC28D /* PackageCollectionCell.xib */; };
+		BFFA672D1D62DE8700EBC28D /* PackagesSureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFA672B1D62DE8700EBC28D /* PackagesSureViewController.m */; };
+		BFFA672E1D62DE8700EBC28D /* PackagesSureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFFA672C1D62DE8700EBC28D /* PackagesSureViewController.xib */; };
+		BFFA67371D62EA2800EBC28D /* FlowBagAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFA67351D62EA2800EBC28D /* FlowBagAddViewController.m */; };
+		BFFA67381D62EA2800EBC28D /* FlowBagAddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFFA67361D62EA2800EBC28D /* FlowBagAddViewController.xib */; };
+		BFFA673C1D62F7A100EBC28D /* KeepNumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFA673A1D62F7A100EBC28D /* KeepNumViewController.m */; };
+		BFFA673D1D62F7A100EBC28D /* KeepNumViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFFA673B1D62F7A100EBC28D /* KeepNumViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1221,6 +1231,21 @@
 		BFFA55E91D543AE800A3FB20 /* UIImageView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CornerRadius.m"; sourceTree = "<group>"; };
 		BFFA56EA1D5471DB00A3FB20 /* DDMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMenuController.h; sourceTree = "<group>"; };
 		BFFA56EB1D5471DB00A3FB20 /* DDMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMenuController.m; sourceTree = "<group>"; };
+		BFFA67201D62BE3B00EBC28D /* PackagesAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PackagesAddViewController.h; sourceTree = "<group>"; };
+		BFFA67211D62BE3C00EBC28D /* PackagesAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PackagesAddViewController.m; sourceTree = "<group>"; };
+		BFFA67221D62BE3C00EBC28D /* PackagesAddViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PackagesAddViewController.xib; sourceTree = "<group>"; };
+		BFFA67251D62C02800EBC28D /* PackageCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PackageCollectionCell.h; sourceTree = "<group>"; };
+		BFFA67261D62C02800EBC28D /* PackageCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PackageCollectionCell.m; sourceTree = "<group>"; };
+		BFFA67271D62C02800EBC28D /* PackageCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PackageCollectionCell.xib; sourceTree = "<group>"; };
+		BFFA672A1D62DE8700EBC28D /* PackagesSureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PackagesSureViewController.h; sourceTree = "<group>"; };
+		BFFA672B1D62DE8700EBC28D /* PackagesSureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PackagesSureViewController.m; sourceTree = "<group>"; };
+		BFFA672C1D62DE8700EBC28D /* PackagesSureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PackagesSureViewController.xib; sourceTree = "<group>"; };
+		BFFA67341D62EA2800EBC28D /* FlowBagAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowBagAddViewController.h; sourceTree = "<group>"; };
+		BFFA67351D62EA2800EBC28D /* FlowBagAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowBagAddViewController.m; sourceTree = "<group>"; };
+		BFFA67361D62EA2800EBC28D /* FlowBagAddViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlowBagAddViewController.xib; sourceTree = "<group>"; };
+		BFFA67391D62F7A100EBC28D /* KeepNumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeepNumViewController.h; sourceTree = "<group>"; };
+		BFFA673A1D62F7A100EBC28D /* KeepNumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeepNumViewController.m; sourceTree = "<group>"; };
+		BFFA673B1D62F7A100EBC28D /* KeepNumViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeepNumViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1867,6 +1892,18 @@
 				BF2E460F1D61BE9B002FC380 /* PayChooseViewController.h */,
 				BF2E46101D61BE9B002FC380 /* PayChooseViewController.m */,
 				BF2E46121D61BFBF002FC380 /* PayChooseViewController.xib */,
+				BFFA67201D62BE3B00EBC28D /* PackagesAddViewController.h */,
+				BFFA67211D62BE3C00EBC28D /* PackagesAddViewController.m */,
+				BFFA67221D62BE3C00EBC28D /* PackagesAddViewController.xib */,
+				BFFA672A1D62DE8700EBC28D /* PackagesSureViewController.h */,
+				BFFA672B1D62DE8700EBC28D /* PackagesSureViewController.m */,
+				BFFA672C1D62DE8700EBC28D /* PackagesSureViewController.xib */,
+				BFFA67341D62EA2800EBC28D /* FlowBagAddViewController.h */,
+				BFFA67351D62EA2800EBC28D /* FlowBagAddViewController.m */,
+				BFFA67361D62EA2800EBC28D /* FlowBagAddViewController.xib */,
+				BFFA67391D62F7A100EBC28D /* KeepNumViewController.h */,
+				BFFA673A1D62F7A100EBC28D /* KeepNumViewController.m */,
+				BFFA673B1D62F7A100EBC28D /* KeepNumViewController.xib */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -1884,6 +1921,9 @@
 				BF2E460A1D61B39F002FC380 /* PayTableViewCell.h */,
 				BF2E460B1D61B39F002FC380 /* PayTableViewCell.m */,
 				BF2E460C1D61B39F002FC380 /* PayTableViewCell.xib */,
+				BFFA67251D62C02800EBC28D /* PackageCollectionCell.h */,
+				BFFA67261D62C02800EBC28D /* PackageCollectionCell.m */,
+				BFFA67271D62C02800EBC28D /* PackageCollectionCell.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -2895,12 +2935,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFFA672E1D62DE8700EBC28D /* PackagesSureViewController.xib in Resources */,
 				BFF151771D59798B00315ABD /* AccountViewController.xib in Resources */,
 				BFF151A41D59895B00315ABD /* Icon@2x.png in Resources */,
 				BFFA56001D543AE800A3FB20 /* COPYING in Resources */,
 				BFF1519E1D59895B00315ABD /* Icon-Small-50.png in Resources */,
 				BFF151A01D59895B00315ABD /* Icon-Small.png in Resources */,
 				BFF1519B1D59895B00315ABD /* Icon-72@2x.png in Resources */,
+				BFFA67291D62C02800EBC28D /* PackageCollectionCell.xib in Resources */,
 				BF2E460E1D61B39F002FC380 /* PayTableViewCell.xib in Resources */,
 				BF2E46091D619E12002FC380 /* BuyCardTableViewCell.xib in Resources */,
 				BF2E46041D6199BC002FC380 /* BuyCardViewController.xib in Resources */,
@@ -2916,9 +2958,11 @@
 				BFF151991D59895B00315ABD /* Icon-60@3x.png in Resources */,
 				BFF1516D1D59796600315ABD /* PayViewController.xib in Resources */,
 				BFF151A51D59895B00315ABD /* iTunesArtwork in Resources */,
+				BFFA67241D62BE3C00EBC28D /* PackagesAddViewController.xib in Resources */,
 				BFF151A31D59895B00315ABD /* Icon.png in Resources */,
 				BFF151AB1D59897D00315ABD /* Default@2x.png in Resources */,
 				BFF151A21D59895B00315ABD /* Icon-Small@3x.png in Resources */,
+				BFFA673D1D62F7A100EBC28D /* KeepNumViewController.xib in Resources */,
 				BFFA55F01D543AE800A3FB20 /* CodeScan.bundle in Resources */,
 				BF4D45F91D51809500984ADA /* Main.storyboard in Resources */,
 				BFF151981D59895B00315ABD /* Icon-60@2x.png in Resources */,
@@ -2927,6 +2971,7 @@
 				BFF1519A1D59895B00315ABD /* Icon-72.png in Resources */,
 				BFF151971D59895B00315ABD /* Icon-60.png in Resources */,
 				BFFA55EE1D543AE800A3FB20 /* LICENSE in Resources */,
+				BFFA67381D62EA2800EBC28D /* FlowBagAddViewController.xib in Resources */,
 				BFF1519D1D59895B00315ABD /* Icon-76@2x.png in Resources */,
 				BF2E45FA1D618CCA002FC380 /* OpenSureViewController.xib in Resources */,
 				BFF1519F1D59895B00315ABD /* Icon-Small-50@2x.png in Resources */,
@@ -3011,6 +3056,7 @@
 				BFFA56D61D543AE800A3FB20 /* ZXQRCodeMatrixUtil.m in Sources */,
 				BFFA567B1D543AE800A3FB20 /* ZXAI01weightDecoder.m in Sources */,
 				BFFA56601D543AE800A3FB20 /* ZXDataMatrixC40Encoder.m in Sources */,
+				BFFA67281D62C02800EBC28D /* PackageCollectionCell.m in Sources */,
 				BFC1255D1D51C87600CAFA12 /* UIProgressView+AFNetworking.m in Sources */,
 				BFFA56021D543AE800A3FB20 /* ZXAztecDecoder.m in Sources */,
 				BFFA565B1D543AE800A3FB20 /* ZXDataMatrixDecoder.m in Sources */,
@@ -3081,6 +3127,7 @@
 				BFFA562C1D543AE800A3FB20 /* ZXVCardResultParser.m in Sources */,
 				BFC126331D51CA1900CAFA12 /* UIImage+WebP.m in Sources */,
 				BFFA56521D543AE800A3FB20 /* ZXInvertedLuminanceSource.m in Sources */,
+				BFFA672D1D62DE8700EBC28D /* PackagesSureViewController.m in Sources */,
 				BFFA56C31D543AE800A3FB20 /* ZXQRCodeDataBlock.m in Sources */,
 				BFC1259A1D51C8F100CAFA12 /* Request.m in Sources */,
 				BFFA56B71D543AE800A3FB20 /* ZXPDF417DetectorResult.m in Sources */,
@@ -3089,6 +3136,7 @@
 				BFFA56AC1D543AE800A3FB20 /* ZXPDF417BarcodeMetadata.m in Sources */,
 				BFFA568A1D543AE800A3FB20 /* ZXRSS14Reader.m in Sources */,
 				BFFA564A1D543AE800A3FB20 /* ZXStringUtils.m in Sources */,
+				BFFA67231D62BE3C00EBC28D /* PackagesAddViewController.m in Sources */,
 				BFFA56A51D543AE800A3FB20 /* ZXUPCEANExtensionSupport.m in Sources */,
 				BFC127041D51E85500CAFA12 /* TAAnimatedDotView.m in Sources */,
 				BFFA56361D543AE800A3FB20 /* ZXMonochromeRectangleDetector.m in Sources */,
@@ -3168,6 +3216,7 @@
 				BFFA565F1D543AE800A3FB20 /* ZXDataMatrixBase256Encoder.m in Sources */,
 				BFC127031D51E85500CAFA12 /* TAAbstractDotView.m in Sources */,
 				BFFA56D01D543AE800A3FB20 /* ZXQRCodeFinderPatternFinder.m in Sources */,
+				BFFA673C1D62F7A100EBC28D /* KeepNumViewController.m in Sources */,
 				BFFA56251D543AE800A3FB20 /* ZXSMTPResultParser.m in Sources */,
 				BF2E46111D61BE9B002FC380 /* PayChooseViewController.m in Sources */,
 				BFFA566A1D543AE800A3FB20 /* ZXDataMatrixReader.m in Sources */,
@@ -3279,6 +3328,7 @@
 				BFFA56031D543AE800A3FB20 /* ZXAztecDetector.m in Sources */,
 				BFC125501D51C87600CAFA12 /* AFHTTPRequestOperationManager.m in Sources */,
 				BFFA56051D543AE800A3FB20 /* ZXAztecCode.m in Sources */,
+				BFFA67371D62EA2800EBC28D /* FlowBagAddViewController.m in Sources */,
 				BFFA56291D543AE800A3FB20 /* ZXURIParsedResult.m in Sources */,
 				BFC126281D51CA1900CAFA12 /* NSData+ImageContentType.m in Sources */,
 				BFC125FF1D51C9F000CAFA12 /* MJRefreshStateHeader.m in Sources */,
@@ -3437,6 +3487,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiefengPay.SFood;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "8243d558-dd65-4485-821a-1441674ceaa6";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 arm64 armv7s";
 			};
 			name = Debug;
@@ -3460,6 +3511,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiefengPay.SFood;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "8243d558-dd65-4485-821a-1441674ceaa6";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 arm64 armv7s";
 			};
 			name = Release;
