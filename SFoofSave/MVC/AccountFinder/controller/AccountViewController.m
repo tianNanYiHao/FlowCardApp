@@ -40,6 +40,8 @@
     _headImage.layer.cornerRadius = 34;
     _heagBGView.frame = CGRectMake(0, 0, boundsWidth, 252);
     [self createTableView];
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
+    //消除阴影
     self.navigationController.navigationBar.shadowImage = [UIImage new];
 }
 -(void)createTableView{
@@ -144,17 +146,17 @@
     if (indexPath.section == 0) {
         NSArray *arr = _arrayTitle[0];
         cell.textLabel.text = arr[indexPath.row];
-        
+        return cell;
     }else
     if (indexPath.section == 1) {
         NSArray *arr = _arrayTitle[1];
         cell.textLabel.text = arr[indexPath.row];
-        
+        return cell;
     }else
     if (indexPath.section == 2) {
         NSArray *arr = _arrayTitle[2];
         cell.textLabel.text = arr[indexPath.row];
-        
+        return cell;
     }else
     if (indexPath.section == 3) {
         NSArray *arr = _arrayTitle[3];
@@ -162,8 +164,9 @@
         cell.textLabel.textAlignment = NSTextAlignmentCenter;
         cell.textLabel.textColor = [UIColor redColor];
         cell.textLabel.font = [UIFont systemFontOfSize:20];
-        
-    }else
+        return cell;
+    }
+    
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
