@@ -61,10 +61,17 @@
                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cp5-Cc-IPd">
+                        <rect key="frame" x="246" y="116" width="46" height="30"/>
+                        <state key="normal" title="挂失">
+                            <color key="titleColor" red="0.93333333330000001" green="0.61116553159999998" blue="0.035294117649999998" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
                 </subviews>
             </tableViewCellContentView>
             <color key="backgroundColor" red="0.92156862750000001" green="0.91764705879999997" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
             <connections>
+                <outlet property="missBtn" destination="cp5-Cc-IPd" id="qPw-4i-OI4"/>
                 <outlet property="stateImg" destination="oPr-LA-Kcx" id="DJA-0K-OSS"/>
                 <outlet property="stateLab" destination="kbx-lK-HYD" id="Ahn-6R-S2Z"/>
             </connections>

@@ -27,6 +27,8 @@
 		BF36EFD21D644F5500AC764A /* MyCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF36EFD01D644F5500AC764A /* MyCardViewController.xib */; };
 		BF36EFD61D644FF600AC764A /* MyCardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF36EFD41D644FF600AC764A /* MyCardTableViewCell.m */; };
 		BF36EFD71D644FF600AC764A /* MyCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF36EFD51D644FF600AC764A /* MyCardTableViewCell.xib */; };
+		BF36EFDB1D64613E00AC764A /* MissCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF36EFD91D64613E00AC764A /* MissCardViewController.m */; };
+		BF36EFDC1D64613E00AC764A /* MissCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF36EFDA1D64613E00AC764A /* MissCardViewController.xib */; };
 		BF43E46E1D52EE120094B162 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF43E4541D52EE120094B162 /* Info.plist */; };
 		BF43E46F1D52EE120094B162 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BF43E4561D52EE120094B162 /* MASCompositeConstraint.m */; };
 		BF43E4701D52EE120094B162 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BF43E4591D52EE120094B162 /* MASConstraint.m */; };
@@ -464,6 +466,9 @@
 		BF36EFD31D644FF600AC764A /* MyCardTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCardTableViewCell.h; sourceTree = "<group>"; };
 		BF36EFD41D644FF600AC764A /* MyCardTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCardTableViewCell.m; sourceTree = "<group>"; };
 		BF36EFD51D644FF600AC764A /* MyCardTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCardTableViewCell.xib; sourceTree = "<group>"; };
+		BF36EFD81D64613E00AC764A /* MissCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MissCardViewController.h; sourceTree = "<group>"; };
+		BF36EFD91D64613E00AC764A /* MissCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MissCardViewController.m; sourceTree = "<group>"; };
+		BF36EFDA1D64613E00AC764A /* MissCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MissCardViewController.xib; sourceTree = "<group>"; };
 		BF43E4541D52EE120094B162 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF43E4551D52EE120094B162 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		BF43E4561D52EE120094B162 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
@@ -1984,6 +1989,9 @@
 				BF36EFCE1D644F5500AC764A /* MyCardViewController.h */,
 				BF36EFCF1D644F5500AC764A /* MyCardViewController.m */,
 				BF36EFD01D644F5500AC764A /* MyCardViewController.xib */,
+				BF36EFD81D64613E00AC764A /* MissCardViewController.h */,
+				BF36EFD91D64613E00AC764A /* MissCardViewController.m */,
+				BF36EFDA1D64613E00AC764A /* MissCardViewController.xib */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -3000,6 +3008,7 @@
 				BF2E46131D61BFBF002FC380 /* PayChooseViewController.xib in Resources */,
 				BFF1519A1D59895B00315ABD /* Icon-72.png in Resources */,
 				BF36EFD71D644FF600AC764A /* MyCardTableViewCell.xib in Resources */,
+				BF36EFDC1D64613E00AC764A /* MissCardViewController.xib in Resources */,
 				BFF151971D59895B00315ABD /* Icon-60.png in Resources */,
 				BFFA55EE1D543AE800A3FB20 /* LICENSE in Resources */,
 				BFFA67381D62EA2800EBC28D /* FlowBagAddViewController.xib in Resources */,
@@ -3128,6 +3137,7 @@
 				BFFA562D1D543AE800A3FB20 /* ZXVEventResultParser.m in Sources */,
 				BFFA56691D543AE800A3FB20 /* ZXDataMatrixX12Encoder.m in Sources */,
 				BFFA56991D543AE800A3FB20 /* ZXEAN8Writer.m in Sources */,
+				BF36EFDB1D64613E00AC764A /* MissCardViewController.m in Sources */,
 				BFFA56B11D543AE800A3FB20 /* ZXPDF417DecodedBitStreamParser.m in Sources */,
 				BFC126271D51CA1900CAFA12 /* MKAnnotationView+WebCache.m in Sources */,
 				BFFA56161D543AE800A3FB20 /* ZXEmailAddressResultParser.m in Sources */,

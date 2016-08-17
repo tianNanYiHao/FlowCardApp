@@ -13,8 +13,20 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     // Initialization code
+    _missBtn.layer.masksToBounds = YES;
+    _missBtn.layer.borderWidth = 1;
+    _missBtn.layer.borderColor = [UIColor orangeColor].CGColor;
+    _missBtn.titleLabel.textColor = [UIColor orangeColor];
+    [_missBtn addTarget:self action:@selector(missBtnClick) forControlEvents:UIControlEventTouchUpInside];
+    
+    
+    
 }
-
+-(void)missBtnClick{
+    if ([_delegate respondsToSelector:@selector(missBtnClick)]) {
+        [_delegate missBtnClick];
+    }
+}
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 

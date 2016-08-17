@@ -8,7 +8,8 @@
 
 #import "MyCardViewController.h"
 #import "MyCardTableViewCell.h"
-@interface MyCardViewController ()<UITableViewDelegate,UITableViewDataSource>
+#import "MissCardViewController.h"
+@interface MyCardViewController ()<UITableViewDelegate,UITableViewDataSource,MyCardDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableivew;
 
 @end
@@ -46,12 +47,20 @@
     static NSString*ID = @"MyCardTableViewCell";
     MyCardTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID forIndexPath:indexPath];
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    cell.delegate = self;
     return cell;
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
     
     
+}
+
+
+#pragma mark - missBtn挂失按钮代理
+- (void)missBtnClick{
+    MissCardViewController *miss = [[MissCardViewController alloc] initWithNibName:@"MissCardViewController" bundle:nil];
+    [self.navigationController pushViewController:miss animated:YES];
 }
 
 /*
