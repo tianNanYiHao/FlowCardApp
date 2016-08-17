@@ -29,13 +29,17 @@
 - (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController{
     
     NSLog(@"index %ld" , tabBarController.selectedIndex);
-    
-    if ( [[Tool objectforkey:isSingIn] isEqualToString:SingNo]) {
-        SingViewController *s = [[SingViewController alloc] initWithNibName:@"SingViewController" bundle:nil];
-        [self presentViewController:s animated:YES completion:nil];
-    }else{
+    if (tabBarController.selectedIndex == 3 || tabBarController.selectedIndex ==0 ) {
         // do nothing
+    }else{
+        if ( [[Tool objectforkey:isSingIn] isEqualToString:SingNo]) {
+            SingViewController *s = [[SingViewController alloc] initWithNibName:@"SingViewController" bundle:nil];
+            [self presentViewController:s animated:YES completion:nil];
+        }else{
+            // do nothing
+        }
     }
+    
     
 }
 
