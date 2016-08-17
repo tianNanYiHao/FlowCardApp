@@ -8,6 +8,7 @@
 
 #import "AccountViewController.h"
 #import "OpenSureViewController.h"
+#import "MyCardViewController.h"
 @interface AccountViewController ()<UITableViewDelegate,UITableViewDataSource>{
     UITableView  *_tableView;
     NSMutableArray *_arrayTitle;
@@ -85,6 +86,10 @@
 }
 //我的卡
 - (IBAction)myCard:(id)sender {
+    MyCardViewController *my = [[MyCardViewController alloc] initWithNibName:@"MyCardViewController" bundle:nil];
+    my.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:my animated:YES];
+    
 }
 //交易记录
 - (IBAction)transRecode:(id)sender {

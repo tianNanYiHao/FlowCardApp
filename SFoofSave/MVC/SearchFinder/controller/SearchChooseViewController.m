@@ -21,7 +21,6 @@
     self.navigationItem.title  = @"查询方式";
     
     
-    
 }
 
 - (void)didReceiveMemoryWarning {

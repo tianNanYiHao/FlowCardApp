@@ -23,6 +23,10 @@
 		BF2E460E1D61B39F002FC380 /* PayTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF2E460C1D61B39F002FC380 /* PayTableViewCell.xib */; };
 		BF2E46111D61BE9B002FC380 /* PayChooseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2E46101D61BE9B002FC380 /* PayChooseViewController.m */; };
 		BF2E46131D61BFBF002FC380 /* PayChooseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF2E46121D61BFBF002FC380 /* PayChooseViewController.xib */; };
+		BF36EFD11D644F5500AC764A /* MyCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF36EFCF1D644F5500AC764A /* MyCardViewController.m */; };
+		BF36EFD21D644F5500AC764A /* MyCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF36EFD01D644F5500AC764A /* MyCardViewController.xib */; };
+		BF36EFD61D644FF600AC764A /* MyCardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF36EFD41D644FF600AC764A /* MyCardTableViewCell.m */; };
+		BF36EFD71D644FF600AC764A /* MyCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF36EFD51D644FF600AC764A /* MyCardTableViewCell.xib */; };
 		BF43E46E1D52EE120094B162 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF43E4541D52EE120094B162 /* Info.plist */; };
 		BF43E46F1D52EE120094B162 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BF43E4561D52EE120094B162 /* MASCompositeConstraint.m */; };
 		BF43E4701D52EE120094B162 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BF43E4591D52EE120094B162 /* MASConstraint.m */; };
@@ -454,6 +458,12 @@
 		BF2E460F1D61BE9B002FC380 /* PayChooseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayChooseViewController.h; sourceTree = "<group>"; };
 		BF2E46101D61BE9B002FC380 /* PayChooseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayChooseViewController.m; sourceTree = "<group>"; };
 		BF2E46121D61BFBF002FC380 /* PayChooseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PayChooseViewController.xib; sourceTree = "<group>"; };
+		BF36EFCE1D644F5500AC764A /* MyCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCardViewController.h; sourceTree = "<group>"; };
+		BF36EFCF1D644F5500AC764A /* MyCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCardViewController.m; sourceTree = "<group>"; };
+		BF36EFD01D644F5500AC764A /* MyCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCardViewController.xib; sourceTree = "<group>"; };
+		BF36EFD31D644FF600AC764A /* MyCardTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCardTableViewCell.h; sourceTree = "<group>"; };
+		BF36EFD41D644FF600AC764A /* MyCardTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCardTableViewCell.m; sourceTree = "<group>"; };
+		BF36EFD51D644FF600AC764A /* MyCardTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCardTableViewCell.xib; sourceTree = "<group>"; };
 		BF43E4541D52EE120094B162 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF43E4551D52EE120094B162 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		BF43E4561D52EE120094B162 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
@@ -1971,6 +1981,9 @@
 				BFF151731D59798B00315ABD /* AccountViewController.h */,
 				BFF151741D59798B00315ABD /* AccountViewController.m */,
 				BFF151751D59798B00315ABD /* AccountViewController.xib */,
+				BF36EFCE1D644F5500AC764A /* MyCardViewController.h */,
+				BF36EFCF1D644F5500AC764A /* MyCardViewController.m */,
+				BF36EFD01D644F5500AC764A /* MyCardViewController.xib */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -1985,6 +1998,9 @@
 		BFF151681D59795100315ABD /* view */ = {
 			isa = PBXGroup;
 			children = (
+				BF36EFD31D644FF600AC764A /* MyCardTableViewCell.h */,
+				BF36EFD41D644FF600AC764A /* MyCardTableViewCell.m */,
+				BF36EFD51D644FF600AC764A /* MyCardTableViewCell.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -2983,10 +2999,12 @@
 				BFF151941D59895B00315ABD /* Icon-40.png in Resources */,
 				BF2E46131D61BFBF002FC380 /* PayChooseViewController.xib in Resources */,
 				BFF1519A1D59895B00315ABD /* Icon-72.png in Resources */,
+				BF36EFD71D644FF600AC764A /* MyCardTableViewCell.xib in Resources */,
 				BFF151971D59895B00315ABD /* Icon-60.png in Resources */,
 				BFFA55EE1D543AE800A3FB20 /* LICENSE in Resources */,
 				BFFA67381D62EA2800EBC28D /* FlowBagAddViewController.xib in Resources */,
 				BFF1519D1D59895B00315ABD /* Icon-76@2x.png in Resources */,
+				BF36EFD21D644F5500AC764A /* MyCardViewController.xib in Resources */,
 				BF2E45FA1D618CCA002FC380 /* OpenSureViewController.xib in Resources */,
 				BFF1519F1D59895B00315ABD /* Icon-Small-50@2x.png in Resources */,
 				BFF151721D59797A00315ABD /* SearchViewController.xib in Resources */,
@@ -3102,6 +3120,7 @@
 				BFFA56901D543AE800A3FB20 /* ZXCodaBarWriter.m in Sources */,
 				BFC125521D51C87600CAFA12 /* AFNetworkReachabilityManager.m in Sources */,
 				BFFA56241D543AE800A3FB20 /* ZXSMSTOMMSTOResultParser.m in Sources */,
+				BF36EFD61D644FF600AC764A /* MyCardTableViewCell.m in Sources */,
 				BFFA55EA1D543AE800A3FB20 /* UIActionSheet+LBXAlertAction.m in Sources */,
 				BFFA563D1D543AE800A3FB20 /* ZXBitMatrix.m in Sources */,
 				BFFA56801D543AE800A3FB20 /* ZXRSSExpandedDecodedInformation.m in Sources */,
@@ -3274,6 +3293,7 @@
 				BFFA56081D543AE800A3FB20 /* ZXAztecSimpleToken.m in Sources */,
 				BFC125211D51C75300CAFA12 /* MBProgressHUD+Add.m in Sources */,
 				BFC127091D51E85500CAFA12 /* UIView+SDExtension.m in Sources */,
+				BF36EFD11D644F5500AC764A /* MyCardViewController.m in Sources */,
 				BFC125991D51C8F100CAFA12 /* DBManger.m in Sources */,
 				BFFA56071D543AE800A3FB20 /* ZXAztecHighLevelEncoder.m in Sources */,
 				BF2E46031D6199BC002FC380 /* BuyCardViewController.m in Sources */,
