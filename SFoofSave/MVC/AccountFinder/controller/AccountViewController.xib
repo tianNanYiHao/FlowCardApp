@@ -24,7 +24,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-            <point key="canvasLocation" x="633" y="277"/>
+            <point key="canvasLocation" x="616" y="261"/>
         </view>
         <view contentMode="scaleToFill" id="PAn-dp-M0y">
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -96,20 +96,28 @@
                         </imageView>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EeI-H6-g5r">
                             <rect key="frame" x="0.0" y="0.0" width="108" height="91"/>
+                            <connections>
+                                <action selector="openCard:" destination="-1" eventType="touchUpInside" id="HmF-Vh-06T"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pd5-uq-7ho">
                             <rect key="frame" x="108" y="0.0" width="108" height="91"/>
+                            <connections>
+                                <action selector="myCard:" destination="-1" eventType="touchUpInside" id="TpW-xX-2Hc"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aQe-fa-4an">
                             <rect key="frame" x="212" y="0.0" width="108" height="91"/>
+                            <connections>
+                                <action selector="transRecode:" destination="-1" eventType="touchUpInside" id="PcS-dQ-I93"/>
+                            </connections>
                         </button>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-            <point key="canvasLocation" x="238" y="277"/>
+            <point key="canvasLocation" x="251" y="277"/>
         </view>
     </objects>
     <resources>

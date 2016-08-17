@@ -7,7 +7,7 @@
 //
 
 #import "AccountViewController.h"
-
+#import "OpenSureViewController.h"
 @interface AccountViewController ()<UITableViewDelegate,UITableViewDataSource>{
     UITableView  *_tableView;
     NSMutableArray *_arrayTitle;
@@ -38,12 +38,8 @@
     _headImage.layer.masksToBounds = YES;
     _headImage.layer.cornerRadius = 34;
     _heagBGView.frame = CGRectMake(0, 0, boundsWidth, 252);
-
     [self createTableView];
-    
-    
-    
-    
+    self.navigationController.navigationBar.shadowImage = [UIImage new];
 }
 -(void)createTableView{
     _arrayTitle = [[NSMutableArray alloc] initWithCapacity:0];
@@ -58,7 +54,7 @@
     
     
     self.automaticallyAdjustsScrollViewInsets = NO;
-    _tableView  = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, boundsWidth, boundsHeight-64) style:UITableViewStyleGrouped];
+    _tableView  = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, boundsWidth, boundsHeight-64-44) style:UITableViewStyleGrouped];
     [self.view addSubview:_tableView];
     _tableView.dataSource = self;
     _tableView.delegate = self;
@@ -76,11 +72,28 @@
     }
 
 }
+- (void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    [_tableView reloadData];
+}
+//开卡
+- (IBAction)openCard:(id)sender {
+    OpenSureViewController *op = [[OpenSureViewController alloc] initWithNibName:@"OpenSureViewController" bundle:nil];
+    op.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:op animated:YES];
+    
+}
+//我的卡
+- (IBAction)myCard:(id)sender {
+}
+//交易记录
+- (IBAction)transRecode:(id)sender {
+}
+
 
 -(void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    
     if ([[Tool objectforkey:isSingIn] isEqualToString:SingYes]) {
         _headImage.image = [UIImage imageNamed:@"ç"];
         _nameLab.text = @"猴子请来的逗逼";
@@ -106,8 +119,15 @@
     }
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 44;
+    return 49;
     
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
+     return 10;
+}
+-(CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
+    return 10;
 }
 -(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     static NSString *ID = @"IDD1";
@@ -120,26 +140,57 @@
         NSArray *arr = _arrayTitle[0];
         cell.textLabel.text = arr[indexPath.row];
         
-    }
+    }else
     if (indexPath.section == 1) {
         NSArray *arr = _arrayTitle[1];
         cell.textLabel.text = arr[indexPath.row];
         
-    }
+    }else
     if (indexPath.section == 2) {
         NSArray *arr = _arrayTitle[2];
         cell.textLabel.text = arr[indexPath.row];
         
-    }
+    }else
     if (indexPath.section == 3) {
         NSArray *arr = _arrayTitle[3];
         cell.textLabel.text = arr[indexPath.row];
+        cell.textLabel.textAlignment = NSTextAlignmentCenter;
+        cell.textLabel.textColor = [UIColor redColor];
+        cell.textLabel.font = [UIFont systemFontOfSize:20];
         
-    }
+    }else
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
-    cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton;
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
 
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    if (indexPath.section == 0) {
+        
+    }
+    if (indexPath.section == 1) {
+        
+    }
+    if (indexPath.section == 2) {
+        
+    }
+    if (indexPath.section == 3) {
+        if (indexPath.row == 0) {
+            if ([[Tool objectforkey:isSingIn] isEqualToString:SingYes]) {
+                [Tool setobject:SingNo forkey:isSingIn];
+                SingViewController *s = [[SingViewController alloc] initWithNibName:@"SingViewController" bundle:nil];
+                [self presentViewController:s animated:YES completion:nil];
+                _nameLab.text = @"立即登录";
+                _headImage.image = [UIImage imageNamed:@"头像"];
+            }
+        }else{
+            // do nothing
+        }
+        
+    }
+    
+    
 }
 
 
