@@ -10,6 +10,7 @@
 #import "OpenSureViewController.h"
 #import "MyCardViewController.h"
 #import "TransRecodeViewController.h"
+#import "AboutUSViewController.h"
 @interface AccountViewController ()<UITableViewDelegate,UITableViewDataSource>{
     UITableView  *_tableView;
     NSMutableArray *_arrayTitle;
@@ -186,6 +187,11 @@
         
     }
     if (indexPath.section == 2) {
+        if (indexPath.row == 0) {  //about us
+            AboutUSViewController * a = [[AboutUSViewController alloc] initWithNibName:@"AboutUSViewController" bundle:nil];
+            a.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:a animated:YES];
+        }
         
     }
     if (indexPath.section == 3) {

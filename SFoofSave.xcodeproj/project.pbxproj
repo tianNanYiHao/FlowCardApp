@@ -48,7 +48,11 @@
 		BF8181E01D66DAD200ABA20E /* FlowDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF8181DE1D66DAD200ABA20E /* FlowDetailViewController.xib */; };
 		BF8181E41D66DB2A00ABA20E /* TransRecodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8181E21D66DB2A00ABA20E /* TransRecodeViewController.m */; };
 		BF8181E51D66DB2A00ABA20E /* TransRecodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF8181E31D66DB2A00ABA20E /* TransRecodeViewController.xib */; };
-		BF81823C1D66FC5C00ABA20E /* libLFFExcelVIew.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF81823B1D66FC5C00ABA20E /* libLFFExcelVIew.a */; };
+		BF8182401D66FF6700ABA20E /* TransDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF81823E1D66FF6700ABA20E /* TransDetailViewController.m */; };
+		BF8182411D66FF6700ABA20E /* TransDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF81823F1D66FF6700ABA20E /* TransDetailViewController.xib */; };
+		BF8182451D6704EB00ABA20E /* libLFFExcelVIew.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF8182441D6704EB00ABA20E /* libLFFExcelVIew.a */; };
+		BF81824A1D67081C00ABA20E /* AboutUSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8182481D67081C00ABA20E /* AboutUSViewController.m */; };
+		BF81824B1D67081C00ABA20E /* AboutUSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF8182491D67081C00ABA20E /* AboutUSViewController.xib */; };
 		BF9195801D5B2E1300AC5371 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF91957E1D5B2E1300AC5371 /* HomeViewController.m */; };
 		BF9195811D5B2E1300AC5371 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF91957F1D5B2E1300AC5371 /* HomeViewController.xib */; };
 		BFC124A31D519FD400CAFA12 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC124A21D519FD400CAFA12 /* Images.xcassets */; };
@@ -518,8 +522,14 @@
 		BF8181E11D66DB2A00ABA20E /* TransRecodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransRecodeViewController.h; sourceTree = "<group>"; };
 		BF8181E21D66DB2A00ABA20E /* TransRecodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransRecodeViewController.m; sourceTree = "<group>"; };
 		BF8181E31D66DB2A00ABA20E /* TransRecodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransRecodeViewController.xib; sourceTree = "<group>"; };
-		BF81823A1D66FC5C00ABA20E /* LFFExcel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFFExcel.h; sourceTree = "<group>"; };
-		BF81823B1D66FC5C00ABA20E /* libLFFExcelVIew.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLFFExcelVIew.a; sourceTree = "<group>"; };
+		BF81823D1D66FF6700ABA20E /* TransDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransDetailViewController.h; sourceTree = "<group>"; };
+		BF81823E1D66FF6700ABA20E /* TransDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransDetailViewController.m; sourceTree = "<group>"; };
+		BF81823F1D66FF6700ABA20E /* TransDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransDetailViewController.xib; sourceTree = "<group>"; };
+		BF8182441D6704EB00ABA20E /* libLFFExcelVIew.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLFFExcelVIew.a; sourceTree = "<group>"; };
+		BF8182461D67051400ABA20E /* LFFExcel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFFExcel.h; sourceTree = "<group>"; };
+		BF8182471D67081C00ABA20E /* AboutUSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUSViewController.h; sourceTree = "<group>"; };
+		BF8182481D67081C00ABA20E /* AboutUSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUSViewController.m; sourceTree = "<group>"; };
+		BF8182491D67081C00ABA20E /* AboutUSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutUSViewController.xib; sourceTree = "<group>"; };
 		BF91957D1D5B2E1300AC5371 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		BF91957E1D5B2E1300AC5371 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		BF91957F1D5B2E1300AC5371 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
@@ -1290,7 +1300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFC126481D51CD0100CAFA12 /* libsqlite3.tbd in Frameworks */,
-				BF81823C1D66FC5C00ABA20E /* libLFFExcelVIew.a in Frameworks */,
+				BF8182451D6704EB00ABA20E /* libLFFExcelVIew.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1408,8 +1418,8 @@
 		BF8181D31D66D4A100ABA20E /* LFFExcelView */ = {
 			isa = PBXGroup;
 			children = (
-				BF81823A1D66FC5C00ABA20E /* LFFExcel.h */,
-				BF81823B1D66FC5C00ABA20E /* libLFFExcelVIew.a */,
+				BF8182461D67051400ABA20E /* LFFExcel.h */,
+				BF8182441D6704EB00ABA20E /* libLFFExcelVIew.a */,
 			);
 			path = LFFExcelView;
 			sourceTree = "<group>";
@@ -2022,6 +2032,12 @@
 				BF8181E11D66DB2A00ABA20E /* TransRecodeViewController.h */,
 				BF8181E21D66DB2A00ABA20E /* TransRecodeViewController.m */,
 				BF8181E31D66DB2A00ABA20E /* TransRecodeViewController.xib */,
+				BF81823D1D66FF6700ABA20E /* TransDetailViewController.h */,
+				BF81823E1D66FF6700ABA20E /* TransDetailViewController.m */,
+				BF81823F1D66FF6700ABA20E /* TransDetailViewController.xib */,
+				BF8182471D67081C00ABA20E /* AboutUSViewController.h */,
+				BF8182481D67081C00ABA20E /* AboutUSViewController.m */,
+				BF8182491D67081C00ABA20E /* AboutUSViewController.xib */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -3004,6 +3020,7 @@
 			files = (
 				BFFA672E1D62DE8700EBC28D /* PackagesSureViewController.xib in Resources */,
 				BFF151771D59798B00315ABD /* AccountViewController.xib in Resources */,
+				BF8182411D66FF6700ABA20E /* TransDetailViewController.xib in Resources */,
 				BFF151A41D59895B00315ABD /* Icon@2x.png in Resources */,
 				BFFA56001D543AE800A3FB20 /* COPYING in Resources */,
 				BFF1519E1D59895B00315ABD /* Icon-Small-50.png in Resources */,
@@ -3027,6 +3044,7 @@
 				BFFA67421D63021B00EBC28D /* SearchChooseViewController.xib in Resources */,
 				BFF1516D1D59796600315ABD /* PayViewController.xib in Resources */,
 				BFF151A51D59895B00315ABD /* iTunesArtwork in Resources */,
+				BF81824B1D67081C00ABA20E /* AboutUSViewController.xib in Resources */,
 				BFFA67241D62BE3C00EBC28D /* PackagesAddViewController.xib in Resources */,
 				BFF151A31D59895B00315ABD /* Icon.png in Resources */,
 				BFF151AB1D59897D00315ABD /* Default@2x.png in Resources */,
@@ -3179,6 +3197,7 @@
 				BFFA56091D543AE800A3FB20 /* ZXAztecState.m in Sources */,
 				BFC1262C1D51CA1900CAFA12 /* SDWebImageDownloader.m in Sources */,
 				BFFA56C61D543AE800A3FB20 /* ZXQRCodeDecoder.m in Sources */,
+				BF8182401D66FF6700ABA20E /* TransDetailViewController.m in Sources */,
 				BF2E46081D619E12002FC380 /* BuyCardTableViewCell.m in Sources */,
 				BFFA564B1D543AE800A3FB20 /* ZXBinarizer.m in Sources */,
 				BF9195801D5B2E1300AC5371 /* HomeViewController.m in Sources */,
@@ -3246,6 +3265,7 @@
 				BFFA56B41D543AE800A3FB20 /* ZXPDF417DetectionResultRowIndicatorColumn.m in Sources */,
 				BFFA56481D543AE800A3FB20 /* ZXIntArray.m in Sources */,
 				BFFA56AA1D543AE800A3FB20 /* ZXModulusPoly.m in Sources */,
+				BF81824A1D67081C00ABA20E /* AboutUSViewController.m in Sources */,
 				BFC125F71D51C9F000CAFA12 /* MJRefreshAutoGifFooter.m in Sources */,
 				BFC125F31D51C9F000CAFA12 /* MJRefreshBackFooter.m in Sources */,
 				BFFA56A31D543AE800A3FB20 /* ZXUPCEANExtension2Support.m in Sources */,

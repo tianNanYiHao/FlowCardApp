@@ -7,9 +7,15 @@
 //
 
 #import "TransRecodeViewController.h"
-
+#import "TransDetailViewController.h"
 @interface TransRecodeViewController ()
-
+{
+    TransDetailViewController *trans;
+    NSInteger index;
+    
+    
+    
+}
 @end
 
 @implementation TransRecodeViewController
@@ -19,6 +25,7 @@
     [self changeLeftIetm];
     // Do any additional setup after loading the view from its nib.
     self.navigationItem.title = @"交易记录";
+    
     
     [self  createExcelView];
     
@@ -39,15 +46,15 @@
     ds.excelY = 20;
     ds.cellHeight = 40;
     ds.anction = YES;
+    
     LFFExcelComponent *excelComponent = [[ LFFExcelComponent alloc] initWithdata:ds block:^(NSInteger action) {
-        
+        NSLog(@"%ld",(long)action);
     }];
     [self.view addSubview:excelComponent];
-    
-    
-    
+
     
 }
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

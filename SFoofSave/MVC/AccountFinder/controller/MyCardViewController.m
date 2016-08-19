@@ -9,6 +9,8 @@
 #import "MyCardViewController.h"
 #import "MyCardTableViewCell.h"
 #import "MissCardViewController.h"
+#import "AboutUSViewController.h"
+
 @interface MyCardViewController ()<UITableViewDelegate,UITableViewDataSource,MyCardDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableivew;
 
