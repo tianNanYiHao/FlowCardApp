@@ -54,9 +54,12 @@
     ds.excelWidth = boundsWidth-2*ds.excelX;
     //设置表格的单元格高度
     ds.cellHeight = 40;
-    
-    
-    LFFExcelComponent *lffexcelComponent = [[LFFExcelComponent alloc] initWithdata:ds];
+    //设置是否可以点击
+    ds.anction = YES;    
+    LFFExcelComponent *lffexcelComponent = [[LFFExcelComponent alloc] initWithdata:ds block:^(NSInteger action) {
+        NSLog(@"%ld",action);
+        
+    }];
     [self.view addSubview:lffexcelComponent];
     
     

@@ -44,11 +44,11 @@
 		BF4D45F31D51809500984ADA /* MyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4D45F21D51809500984ADA /* MyAppDelegate.m */; };
 		BF4D45F91D51809500984ADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF4D45F71D51809500984ADA /* Main.storyboard */; };
 		BF7CC2AD1D5601BA00E54980 /* UIView+ChangeFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7CC2AC1D5601BA00E54980 /* UIView+ChangeFrame.m */; };
-		BF8181D61D66D4AC00ABA20E /* libLFFExcelView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF8181D51D66D4AC00ABA20E /* libLFFExcelView.a */; };
 		BF8181DF1D66DAD200ABA20E /* FlowDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8181DD1D66DAD200ABA20E /* FlowDetailViewController.m */; };
 		BF8181E01D66DAD200ABA20E /* FlowDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF8181DE1D66DAD200ABA20E /* FlowDetailViewController.xib */; };
 		BF8181E41D66DB2A00ABA20E /* TransRecodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8181E21D66DB2A00ABA20E /* TransRecodeViewController.m */; };
 		BF8181E51D66DB2A00ABA20E /* TransRecodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF8181E31D66DB2A00ABA20E /* TransRecodeViewController.xib */; };
+		BF81823C1D66FC5C00ABA20E /* libLFFExcelVIew.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF81823B1D66FC5C00ABA20E /* libLFFExcelVIew.a */; };
 		BF9195801D5B2E1300AC5371 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF91957E1D5B2E1300AC5371 /* HomeViewController.m */; };
 		BF9195811D5B2E1300AC5371 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF91957F1D5B2E1300AC5371 /* HomeViewController.xib */; };
 		BFC124A31D519FD400CAFA12 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC124A21D519FD400CAFA12 /* Images.xcassets */; };
@@ -512,14 +512,14 @@
 		BF4D46151D51809500984ADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF7CC2AB1D5601BA00E54980 /* UIView+ChangeFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ChangeFrame.h"; sourceTree = "<group>"; };
 		BF7CC2AC1D5601BA00E54980 /* UIView+ChangeFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ChangeFrame.m"; sourceTree = "<group>"; };
-		BF8181D41D66D4AC00ABA20E /* LFFExcel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFFExcel.h; sourceTree = "<group>"; };
-		BF8181D51D66D4AC00ABA20E /* libLFFExcelView.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLFFExcelView.a; sourceTree = "<group>"; };
 		BF8181DC1D66DAD200ABA20E /* FlowDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowDetailViewController.h; sourceTree = "<group>"; };
 		BF8181DD1D66DAD200ABA20E /* FlowDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowDetailViewController.m; sourceTree = "<group>"; };
 		BF8181DE1D66DAD200ABA20E /* FlowDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlowDetailViewController.xib; sourceTree = "<group>"; };
 		BF8181E11D66DB2A00ABA20E /* TransRecodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransRecodeViewController.h; sourceTree = "<group>"; };
 		BF8181E21D66DB2A00ABA20E /* TransRecodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransRecodeViewController.m; sourceTree = "<group>"; };
 		BF8181E31D66DB2A00ABA20E /* TransRecodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransRecodeViewController.xib; sourceTree = "<group>"; };
+		BF81823A1D66FC5C00ABA20E /* LFFExcel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFFExcel.h; sourceTree = "<group>"; };
+		BF81823B1D66FC5C00ABA20E /* libLFFExcelVIew.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLFFExcelVIew.a; sourceTree = "<group>"; };
 		BF91957D1D5B2E1300AC5371 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		BF91957E1D5B2E1300AC5371 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		BF91957F1D5B2E1300AC5371 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
@@ -1290,7 +1290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFC126481D51CD0100CAFA12 /* libsqlite3.tbd in Frameworks */,
-				BF8181D61D66D4AC00ABA20E /* libLFFExcelView.a in Frameworks */,
+				BF81823C1D66FC5C00ABA20E /* libLFFExcelVIew.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1408,8 +1408,8 @@
 		BF8181D31D66D4A100ABA20E /* LFFExcelView */ = {
 			isa = PBXGroup;
 			children = (
-				BF8181D41D66D4AC00ABA20E /* LFFExcel.h */,
-				BF8181D51D66D4AC00ABA20E /* libLFFExcelView.a */,
+				BF81823A1D66FC5C00ABA20E /* LFFExcel.h */,
+				BF81823B1D66FC5C00ABA20E /* libLFFExcelVIew.a */,
 			);
 			path = LFFExcelView;
 			sourceTree = "<group>";

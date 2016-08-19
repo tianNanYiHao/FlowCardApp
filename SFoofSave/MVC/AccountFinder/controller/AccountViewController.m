@@ -9,6 +9,7 @@
 #import "AccountViewController.h"
 #import "OpenSureViewController.h"
 #import "MyCardViewController.h"
+#import "TransRecodeViewController.h"
 @interface AccountViewController ()<UITableViewDelegate,UITableViewDataSource>{
     UITableView  *_tableView;
     NSMutableArray *_arrayTitle;
@@ -95,12 +96,10 @@
 }
 //交易记录
 - (IBAction)transRecode:(id)sender {
-//    FlowDetailViewController *flowDetail = [[FlowDetailViewController alloc] initWithNibName:@"FlowDetailViewController" bundle:nil];
-//    flowDetail.hidesBottomBarWhenPushed = YES;
-//    [self.navigationController pushViewController:flowDetail animated:YES];
-    
-    
-    
+    TransRecodeViewController *transR = [[TransRecodeViewController alloc] initWithNibName:@"TransRecodeViewController" bundle:nil];
+    transR.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:transR animated:YES];
+
 }
 
 
