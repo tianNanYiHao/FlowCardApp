@@ -44,6 +44,11 @@
 		BF4D45F31D51809500984ADA /* MyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4D45F21D51809500984ADA /* MyAppDelegate.m */; };
 		BF4D45F91D51809500984ADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF4D45F71D51809500984ADA /* Main.storyboard */; };
 		BF7CC2AD1D5601BA00E54980 /* UIView+ChangeFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7CC2AC1D5601BA00E54980 /* UIView+ChangeFrame.m */; };
+		BF8181D61D66D4AC00ABA20E /* libLFFExcelView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF8181D51D66D4AC00ABA20E /* libLFFExcelView.a */; };
+		BF8181DF1D66DAD200ABA20E /* FlowDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8181DD1D66DAD200ABA20E /* FlowDetailViewController.m */; };
+		BF8181E01D66DAD200ABA20E /* FlowDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF8181DE1D66DAD200ABA20E /* FlowDetailViewController.xib */; };
+		BF8181E41D66DB2A00ABA20E /* TransRecodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8181E21D66DB2A00ABA20E /* TransRecodeViewController.m */; };
+		BF8181E51D66DB2A00ABA20E /* TransRecodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF8181E31D66DB2A00ABA20E /* TransRecodeViewController.xib */; };
 		BF9195801D5B2E1300AC5371 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF91957E1D5B2E1300AC5371 /* HomeViewController.m */; };
 		BF9195811D5B2E1300AC5371 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF91957F1D5B2E1300AC5371 /* HomeViewController.xib */; };
 		BFC124A31D519FD400CAFA12 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC124A21D519FD400CAFA12 /* Images.xcassets */; };
@@ -507,6 +512,14 @@
 		BF4D46151D51809500984ADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF7CC2AB1D5601BA00E54980 /* UIView+ChangeFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ChangeFrame.h"; sourceTree = "<group>"; };
 		BF7CC2AC1D5601BA00E54980 /* UIView+ChangeFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ChangeFrame.m"; sourceTree = "<group>"; };
+		BF8181D41D66D4AC00ABA20E /* LFFExcel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFFExcel.h; sourceTree = "<group>"; };
+		BF8181D51D66D4AC00ABA20E /* libLFFExcelView.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLFFExcelView.a; sourceTree = "<group>"; };
+		BF8181DC1D66DAD200ABA20E /* FlowDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowDetailViewController.h; sourceTree = "<group>"; };
+		BF8181DD1D66DAD200ABA20E /* FlowDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowDetailViewController.m; sourceTree = "<group>"; };
+		BF8181DE1D66DAD200ABA20E /* FlowDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlowDetailViewController.xib; sourceTree = "<group>"; };
+		BF8181E11D66DB2A00ABA20E /* TransRecodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransRecodeViewController.h; sourceTree = "<group>"; };
+		BF8181E21D66DB2A00ABA20E /* TransRecodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransRecodeViewController.m; sourceTree = "<group>"; };
+		BF8181E31D66DB2A00ABA20E /* TransRecodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransRecodeViewController.xib; sourceTree = "<group>"; };
 		BF91957D1D5B2E1300AC5371 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		BF91957E1D5B2E1300AC5371 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		BF91957F1D5B2E1300AC5371 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
@@ -1277,6 +1290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFC126481D51CD0100CAFA12 /* libsqlite3.tbd in Frameworks */,
+				BF8181D61D66D4AC00ABA20E /* libLFFExcelView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1391,6 +1405,15 @@
 			path = ChangeFrameCategory;
 			sourceTree = "<group>";
 		};
+		BF8181D31D66D4A100ABA20E /* LFFExcelView */ = {
+			isa = PBXGroup;
+			children = (
+				BF8181D41D66D4AC00ABA20E /* LFFExcel.h */,
+				BF8181D51D66D4AC00ABA20E /* libLFFExcelView.a */,
+			);
+			path = LFFExcelView;
+			sourceTree = "<group>";
+		};
 		BF9195791D5B2DD400AC5371 /* HomeFinder */ = {
 			isa = PBXGroup;
 			children = (
@@ -1460,6 +1483,7 @@
 		BFC124E71D51B4F300CAFA12 /* 3rd */ = {
 			isa = PBXGroup;
 			children = (
+				BF8181D31D66D4A100ABA20E /* LFFExcelView */,
 				BFFA56E61D545E9900A3FB20 /* DDMenuController */,
 				BFFA53CA1D543AE800A3FB20 /* LBXAlertAction */,
 				BFFA53D71D543AE800A3FB20 /* LBXScan */,
@@ -1962,6 +1986,9 @@
 				BFFA673E1D63021B00EBC28D /* SearchChooseViewController.h */,
 				BFFA673F1D63021B00EBC28D /* SearchChooseViewController.m */,
 				BFFA67401D63021B00EBC28D /* SearchChooseViewController.xib */,
+				BF8181DC1D66DAD200ABA20E /* FlowDetailViewController.h */,
+				BF8181DD1D66DAD200ABA20E /* FlowDetailViewController.m */,
+				BF8181DE1D66DAD200ABA20E /* FlowDetailViewController.xib */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -1992,6 +2019,9 @@
 				BF36EFD81D64613E00AC764A /* MissCardViewController.h */,
 				BF36EFD91D64613E00AC764A /* MissCardViewController.m */,
 				BF36EFDA1D64613E00AC764A /* MissCardViewController.xib */,
+				BF8181E11D66DB2A00ABA20E /* TransRecodeViewController.h */,
+				BF8181E21D66DB2A00ABA20E /* TransRecodeViewController.m */,
+				BF8181E31D66DB2A00ABA20E /* TransRecodeViewController.xib */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -2987,6 +3017,7 @@
 				BFF151AD1D59897D00315ABD /* Default.png in Resources */,
 				BFF151A11D59895B00315ABD /* Icon-Small@2x.png in Resources */,
 				BFC124A31D519FD400CAFA12 /* Images.xcassets in Resources */,
+				BF8181E01D66DAD200ABA20E /* FlowDetailViewController.xib in Resources */,
 				BFFA55FD1D543AE800A3FB20 /* ScanResultViewController.xib in Resources */,
 				BFF151961D59895B00315ABD /* Icon-40@3x.png in Resources */,
 				BF9195811D5B2E1300AC5371 /* HomeViewController.xib in Resources */,
@@ -3007,6 +3038,7 @@
 				BFF151941D59895B00315ABD /* Icon-40.png in Resources */,
 				BF2E46131D61BFBF002FC380 /* PayChooseViewController.xib in Resources */,
 				BFF1519A1D59895B00315ABD /* Icon-72.png in Resources */,
+				BF8181E51D66DB2A00ABA20E /* TransRecodeViewController.xib in Resources */,
 				BF36EFD71D644FF600AC764A /* MyCardTableViewCell.xib in Resources */,
 				BF36EFDC1D64613E00AC764A /* MissCardViewController.xib in Resources */,
 				BFF151971D59895B00315ABD /* Icon-60.png in Resources */,
@@ -3224,6 +3256,7 @@
 				BFC126021D51C9F000CAFA12 /* UIScrollView+MJExtension.m in Sources */,
 				BFFA56821D543AE800A3FB20 /* ZXRSSExpandedDecodedObject.m in Sources */,
 				BFC125F51D51C9F000CAFA12 /* MJRefreshFooter.m in Sources */,
+				BF8181E41D66DB2A00ABA20E /* TransRecodeViewController.m in Sources */,
 				BFFA55FE1D543AE800A3FB20 /* SubLBXScanViewController.m in Sources */,
 				BFFA55F91D543AE800A3FB20 /* LBXScanWrapper.m in Sources */,
 				BFFA560A1D543AE800A3FB20 /* ZXAztecToken.m in Sources */,
@@ -3361,6 +3394,7 @@
 				BFC126291D51CA1900CAFA12 /* SDImageCache.m in Sources */,
 				BFFA561B1D543AE800A3FB20 /* ZXGeoResultParser.m in Sources */,
 				BFC125F21D51C9F000CAFA12 /* MJRefreshAutoFooter.m in Sources */,
+				BF8181DF1D66DAD200ABA20E /* FlowDetailViewController.m in Sources */,
 				BFFA56681D543AE800A3FB20 /* ZXDataMatrixTextEncoder.m in Sources */,
 				BF7CC2AD1D5601BA00E54980 /* UIView+ChangeFrame.m in Sources */,
 				BFFA56311D543AE800A3FB20 /* ZXWifiResultParser.m in Sources */,
@@ -3528,6 +3562,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SFoofSave/3rd/ZBarSDK-master",
+					"$(PROJECT_DIR)/SFoofSave/3rd/LFFExcelView",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiefengPay.SFood;
@@ -3552,6 +3587,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SFoofSave/3rd/ZBarSDK-master",
+					"$(PROJECT_DIR)/SFoofSave/3rd/LFFExcelView",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiefengPay.SFood;

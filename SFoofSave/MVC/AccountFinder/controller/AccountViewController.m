@@ -95,6 +95,12 @@
 }
 //交易记录
 - (IBAction)transRecode:(id)sender {
+//    FlowDetailViewController *flowDetail = [[FlowDetailViewController alloc] initWithNibName:@"FlowDetailViewController" bundle:nil];
+//    flowDetail.hidesBottomBarWhenPushed = YES;
+//    [self.navigationController pushViewController:flowDetail animated:YES];
+    
+    
+    
 }
 
 
