@@ -8,7 +8,8 @@
 
 #import "FlowDetailViewController.h"
 
-@interface FlowDetailViewController ()
+@interface FlowDetailViewController ()<LFFExcelDelegate>
+
 @property (weak, nonatomic) IBOutlet UIView *infoBgVIew; //信息背景view
 
 
@@ -56,15 +57,19 @@
     ds.cellHeight = 40;
     //设置是否可以点击
     ds.anction = YES;    
-    LFFExcelComponent *lffexcelComponent = [[LFFExcelComponent alloc] initWithdata:ds block:^(NSInteger action) {
-        NSLog(@"%ld",action);
-        
-    }];
+    LFFExcelComponent *lffexcelComponent = [[LFFExcelComponent alloc] initWithdata:ds];
+    lffexcelComponent.delegate  = self;
+    
     [self.view addSubview:lffexcelComponent];
     
     
     
 }
+#pragma mark LFFExcelDelegate
+-(void)btnAction:(NSInteger)index{
+    
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
