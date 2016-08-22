@@ -7,7 +7,8 @@
 //
 
 #import "SearchChooseViewController.h"
-
+#import "FlowStatisViewController.h"
+#import "FlowDateChooseViewController.h"
 @interface SearchChooseViewController ()
 
 @end
@@ -27,14 +28,24 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-//当天查询
+//当天详情
 - (IBAction)daySearch:(id)sender {
+    FlowStatisViewController *fs = [[FlowStatisViewController alloc] initWithNibName:@"FlowStatisViewController" bundle:nil];
+    [self.navigationController pushViewController:fs animated:YES];
+    
+    
 }
-//当月查询
+//本月流量
 - (IBAction)monthSearch:(id)sender {
+    FlowStatisViewController *fs = [[FlowStatisViewController alloc] initWithNibName:@"FlowStatisViewController" bundle:nil];
+    [self.navigationController pushViewController:fs animated:YES];
 }
 //自定义查询
 - (IBAction)DIYSearch:(id)sender {
+    
+    FlowDateChooseViewController *fdc = [[FlowDateChooseViewController alloc] initWithNibName:@"FlowDateChooseViewController" bundle:nil];
+    [self.navigationController pushViewController:fdc animated:YES];
+    
 }
 
 

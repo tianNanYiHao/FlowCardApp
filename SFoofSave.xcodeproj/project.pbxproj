@@ -43,6 +43,12 @@
 		BF4D45F01D51809500984ADA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4D45EF1D51809500984ADA /* main.m */; };
 		BF4D45F31D51809500984ADA /* MyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4D45F21D51809500984ADA /* MyAppDelegate.m */; };
 		BF4D45F91D51809500984ADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF4D45F71D51809500984ADA /* Main.storyboard */; };
+		BF5FFB291D6AA32E00CDE83D /* FlowStatisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5FFB271D6AA32E00CDE83D /* FlowStatisViewController.m */; };
+		BF5FFB2A1D6AA32E00CDE83D /* FlowStatisViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFB281D6AA32E00CDE83D /* FlowStatisViewController.xib */; };
+		BF5FFB2E1D6AAB8900CDE83D /* FlowDateChooseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5FFB2C1D6AAB8900CDE83D /* FlowDateChooseViewController.m */; };
+		BF5FFB2F1D6AAB8900CDE83D /* FlowDateChooseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFB2D1D6AAB8900CDE83D /* FlowDateChooseViewController.xib */; };
+		BF5FFB351D6AEC0800CDE83D /* LFFPickerVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5FFB341D6AEC0800CDE83D /* LFFPickerVIew.m */; };
+		BF5FFB371D6AEC2300CDE83D /* LFFPickerVIew.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFB361D6AEC2300CDE83D /* LFFPickerVIew.xib */; };
 		BF7CC2AD1D5601BA00E54980 /* UIView+ChangeFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7CC2AC1D5601BA00E54980 /* UIView+ChangeFrame.m */; };
 		BF8181DF1D66DAD200ABA20E /* FlowDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8181DD1D66DAD200ABA20E /* FlowDetailViewController.m */; };
 		BF8181E01D66DAD200ABA20E /* FlowDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF8181DE1D66DAD200ABA20E /* FlowDetailViewController.xib */; };
@@ -514,6 +520,15 @@
 		BF4D460A1D51809500984ADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF4D46131D51809500984ADA /* SFoofSaveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFoofSaveUITests.m; sourceTree = "<group>"; };
 		BF4D46151D51809500984ADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF5FFB261D6AA32E00CDE83D /* FlowStatisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowStatisViewController.h; sourceTree = "<group>"; };
+		BF5FFB271D6AA32E00CDE83D /* FlowStatisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowStatisViewController.m; sourceTree = "<group>"; };
+		BF5FFB281D6AA32E00CDE83D /* FlowStatisViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlowStatisViewController.xib; sourceTree = "<group>"; };
+		BF5FFB2B1D6AAB8900CDE83D /* FlowDateChooseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowDateChooseViewController.h; sourceTree = "<group>"; };
+		BF5FFB2C1D6AAB8900CDE83D /* FlowDateChooseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowDateChooseViewController.m; sourceTree = "<group>"; };
+		BF5FFB2D1D6AAB8900CDE83D /* FlowDateChooseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlowDateChooseViewController.xib; sourceTree = "<group>"; };
+		BF5FFB331D6AEC0800CDE83D /* LFFPickerVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFFPickerVIew.h; sourceTree = "<group>"; };
+		BF5FFB341D6AEC0800CDE83D /* LFFPickerVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFFPickerVIew.m; sourceTree = "<group>"; };
+		BF5FFB361D6AEC2300CDE83D /* LFFPickerVIew.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LFFPickerVIew.xib; sourceTree = "<group>"; };
 		BF7CC2AB1D5601BA00E54980 /* UIView+ChangeFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ChangeFrame.h"; sourceTree = "<group>"; };
 		BF7CC2AC1D5601BA00E54980 /* UIView+ChangeFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ChangeFrame.m"; sourceTree = "<group>"; };
 		BF8181DC1D66DAD200ABA20E /* FlowDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowDetailViewController.h; sourceTree = "<group>"; };
@@ -1996,6 +2011,12 @@
 				BFFA673E1D63021B00EBC28D /* SearchChooseViewController.h */,
 				BFFA673F1D63021B00EBC28D /* SearchChooseViewController.m */,
 				BFFA67401D63021B00EBC28D /* SearchChooseViewController.xib */,
+				BF5FFB2B1D6AAB8900CDE83D /* FlowDateChooseViewController.h */,
+				BF5FFB2C1D6AAB8900CDE83D /* FlowDateChooseViewController.m */,
+				BF5FFB2D1D6AAB8900CDE83D /* FlowDateChooseViewController.xib */,
+				BF5FFB261D6AA32E00CDE83D /* FlowStatisViewController.h */,
+				BF5FFB271D6AA32E00CDE83D /* FlowStatisViewController.m */,
+				BF5FFB281D6AA32E00CDE83D /* FlowStatisViewController.xib */,
 				BF8181DC1D66DAD200ABA20E /* FlowDetailViewController.h */,
 				BF8181DD1D66DAD200ABA20E /* FlowDetailViewController.m */,
 				BF8181DE1D66DAD200ABA20E /* FlowDetailViewController.xib */,
@@ -2013,6 +2034,9 @@
 		BFF151651D59794A00315ABD /* view */ = {
 			isa = PBXGroup;
 			children = (
+				BF5FFB331D6AEC0800CDE83D /* LFFPickerVIew.h */,
+				BF5FFB341D6AEC0800CDE83D /* LFFPickerVIew.m */,
+				BF5FFB361D6AEC2300CDE83D /* LFFPickerVIew.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -3019,9 +3043,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFFA672E1D62DE8700EBC28D /* PackagesSureViewController.xib in Resources */,
+				BF5FFB2F1D6AAB8900CDE83D /* FlowDateChooseViewController.xib in Resources */,
 				BFF151771D59798B00315ABD /* AccountViewController.xib in Resources */,
 				BF8182411D66FF6700ABA20E /* TransDetailViewController.xib in Resources */,
 				BFF151A41D59895B00315ABD /* Icon@2x.png in Resources */,
+				BF5FFB2A1D6AA32E00CDE83D /* FlowStatisViewController.xib in Resources */,
 				BFFA56001D543AE800A3FB20 /* COPYING in Resources */,
 				BFF1519E1D59895B00315ABD /* Icon-Small-50.png in Resources */,
 				BFF151A01D59895B00315ABD /* Icon-Small.png in Resources */,
@@ -3045,6 +3071,7 @@
 				BFF1516D1D59796600315ABD /* PayViewController.xib in Resources */,
 				BFF151A51D59895B00315ABD /* iTunesArtwork in Resources */,
 				BF81824B1D67081C00ABA20E /* AboutUSViewController.xib in Resources */,
+				BF5FFB371D6AEC2300CDE83D /* LFFPickerVIew.xib in Resources */,
 				BFFA67241D62BE3C00EBC28D /* PackagesAddViewController.xib in Resources */,
 				BFF151A31D59895B00315ABD /* Icon.png in Resources */,
 				BFF151AB1D59897D00315ABD /* Default@2x.png in Resources */,
@@ -3108,6 +3135,7 @@
 				BFFA569A1D543AE800A3FB20 /* ZXEANManufacturerOrgSupport.m in Sources */,
 				BFFA55EB1D543AE800A3FB20 /* UIAlertController+supportedInterfaceOrientations.m in Sources */,
 				BF43E4771D52EE120094B162 /* View+MASAdditions.m in Sources */,
+				BF5FFB351D6AEC0800CDE83D /* LFFPickerVIew.m in Sources */,
 				BFC125C41D51C92E00CAFA12 /* Utils.m in Sources */,
 				BFFA55FA1D543AE800A3FB20 /* LBXZXCapture.m in Sources */,
 				BF2E45F51D61604C002FC380 /* Tool.m in Sources */,
@@ -3294,6 +3322,7 @@
 				BFFA56AF1D543AE800A3FB20 /* ZXPDF417Codeword.m in Sources */,
 				BFFA560B1D543AE800A3FB20 /* ZXAztecDetectorResult.m in Sources */,
 				BFC126011D51C9F000CAFA12 /* MJRefreshConst.m in Sources */,
+				BF5FFB2E1D6AAB8900CDE83D /* FlowDateChooseViewController.m in Sources */,
 				BFC126421D51CC9600CAFA12 /* FMDatabase.m in Sources */,
 				BF43E4781D52EE120094B162 /* ViewController+MASAdditions.m in Sources */,
 				BFFA565E1D543AE800A3FB20 /* ZXDataMatrixASCIIEncoder.m in Sources */,
@@ -3397,6 +3426,7 @@
 				BF2E45F11D615A7B002FC380 /* SingViewController.m in Sources */,
 				BFFA56541D543AE800A3FB20 /* ZXPlanarYUVLuminanceSource.m in Sources */,
 				BFFA56911D543AE800A3FB20 /* ZXCode128Reader.m in Sources */,
+				BF5FFB291D6AA32E00CDE83D /* FlowStatisViewController.m in Sources */,
 				BFC125C31D51C92E00CAFA12 /* UIDevice+iOS7AndIphone5.m in Sources */,
 				BFFA56771D543AE800A3FB20 /* ZXAI013x0x1xDecoder.m in Sources */,
 				BFFA56511D543AE800A3FB20 /* ZXErrors.m in Sources */,

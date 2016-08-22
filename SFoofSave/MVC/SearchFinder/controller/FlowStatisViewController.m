@@ -1,43 +1,39 @@
 //
-//  FlowDetailViewController.m
+//  FlowStatisViewController.m
 //  SFoofSave
 //
-//  Created by Lff on 16/8/19.
+//  Created by Lff on 16/8/22.
 //  Copyright © 2016年 Lff. All rights reserved.
 //
 
+#import "FlowStatisViewController.h"
 #import "FlowDetailViewController.h"
-
-@interface FlowDetailViewController ()
-
+@interface FlowStatisViewController ()<LFFExcelDelegate>
 @property (weak, nonatomic) IBOutlet UIView *infoBgVIew; //信息背景view
 
 
 @end
 
-@implementation FlowDetailViewController
+@implementation FlowStatisViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self changeLeftIetm];
+    
     // Do any additional setup after loading the view from its nib.
+    self.navigationItem.title = @"流量统计";
     
-    self.navigationItem.title = @"流量详情";
-    
-    
-    [self createExcelVIew];
-    
-    
+    [self crateExcelVIew];
+
 }
-- (void)createExcelVIew{
+-(void)crateExcelVIew{
     LFFExcelData *ds = [[LFFExcelData alloc] init];
-    ds.titles = (NSMutableArray*)@[@"时长",@"使用流量",@"网络",@"地点"];
+    ds.titles = (NSMutableArray*)@[@"时长",@"使用流量",@"地点"];
     ds.data = [NSMutableArray arrayWithObjects:
-               @[@"10:01",@"15.6M",@"3G",@"南京"],
-               @[@"",@"",@"",@""],
-               @[@"",@"",@"",@""],
-               @[@"",@"",@"",@""],
-               @[@"",@"",@"",@""],
+               @[@"2016-06-17",@"308M",@"详情"],
+               @[@"2016-06-17",@"308M",@"详情"],
+               @[@"2016-06-17",@"308M",@"详情"],
+               @[@"",@"",@""],@[@"",@"",@""],@[@"",@"",@""],@[@"",@"",@""],
                nil];
     
     //设置表格标题背景色
@@ -56,16 +52,24 @@
     ds.excelWidth = boundsWidth-2*ds.excelX;
     //设置表格的单元格高度
     ds.cellHeight = 40;
-    
+    //设置是否可以点击
+    ds.anction = YES;
     LFFExcelComponent *lffexcelComponent = [[LFFExcelComponent alloc] initWithdata:ds];
+    lffexcelComponent.delegate  = self;
     [self.view addSubview:lffexcelComponent];
-   
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+#pragma mark LFFExcelDelegate
+-(void)btnAction:(NSInteger)index{
+    
+    FlowDetailViewController *fd = [[FlowDetailViewController alloc] initWithNibName:@"FlowDetailViewController" bundle:nil];
+    [self.navigationController pushViewController:fd animated:YES];
+    
+    
 }
 
 /*
