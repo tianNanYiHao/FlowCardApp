@@ -9,7 +9,7 @@
 #import "FlowDateChooseViewController.h"
 
 #import "LFFPickerVIew.h"
-
+#import "FlowStatisViewController.h"
 @interface FlowDateChooseViewController ()<LFFPickerViewDelegate>
 {
 
@@ -27,6 +27,15 @@
 @end
 
 @implementation FlowDateChooseViewController
+
+//查询按钮
+- (IBAction)searchBtn:(id)sender {
+    FlowStatisViewController *fs = [[FlowStatisViewController alloc] initWithNibName:@"FlowStatisViewController" bundle:nil];
+    [self.navigationController pushViewController:fs animated:YES];
+    
+    
+    
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
