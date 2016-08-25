@@ -8,6 +8,8 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FlowDateChooseViewController">
             <connections>
                 <outlet property="overTime" destination="nx5-ja-AFz" id="0us-cG-daV"/>
+                <outlet property="overTimeL" destination="r4G-Ys-dRw" id="S9P-Jd-zoY"/>
+                <outlet property="startTImeL" destination="z4p-FO-8Qc" id="Og3-ax-QQL"/>
                 <outlet property="startTime" destination="ZEZ-F8-X38" id="kh9-Um-4nU"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>

@@ -47,8 +47,6 @@
 		BF5FFB2A1D6AA32E00CDE83D /* FlowStatisViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFB281D6AA32E00CDE83D /* FlowStatisViewController.xib */; };
 		BF5FFB2E1D6AAB8900CDE83D /* FlowDateChooseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5FFB2C1D6AAB8900CDE83D /* FlowDateChooseViewController.m */; };
 		BF5FFB2F1D6AAB8900CDE83D /* FlowDateChooseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFB2D1D6AAB8900CDE83D /* FlowDateChooseViewController.xib */; };
-		BF5FFB351D6AEC0800CDE83D /* LFFPickerVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5FFB341D6AEC0800CDE83D /* LFFPickerVIew.m */; };
-		BF5FFB371D6AEC2300CDE83D /* LFFPickerVIew.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFB361D6AEC2300CDE83D /* LFFPickerVIew.xib */; };
 		BF7CC2AD1D5601BA00E54980 /* UIView+ChangeFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7CC2AC1D5601BA00E54980 /* UIView+ChangeFrame.m */; };
 		BF8181DF1D66DAD200ABA20E /* FlowDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8181DD1D66DAD200ABA20E /* FlowDetailViewController.m */; };
 		BF8181E01D66DAD200ABA20E /* FlowDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF8181DE1D66DAD200ABA20E /* FlowDetailViewController.xib */; };
@@ -61,6 +59,8 @@
 		BF9195801D5B2E1300AC5371 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF91957E1D5B2E1300AC5371 /* HomeViewController.m */; };
 		BF9195811D5B2E1300AC5371 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF91957F1D5B2E1300AC5371 /* HomeViewController.xib */; };
 		BF9F7F531D6849DD00015D45 /* libLFFExcelVIew.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9F7F511D6849DD00015D45 /* libLFFExcelVIew.a */; };
+		BFB3A9E61D6ED25D0082022F /* LFFPickerVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB3A9E41D6ED25D0082022F /* LFFPickerVIew.m */; };
+		BFB3A9E71D6ED25D0082022F /* LFFPickerVIew.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFB3A9E51D6ED25D0082022F /* LFFPickerVIew.xib */; };
 		BFC124A31D519FD400CAFA12 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC124A21D519FD400CAFA12 /* Images.xcassets */; };
 		BFC125161D51C6F900CAFA12 /* PSTAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC125091D51C6F900CAFA12 /* PSTAlertController.m */; };
 		BFC125211D51C75300CAFA12 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC1251C1D51C75300CAFA12 /* MBProgressHUD+Add.m */; };
@@ -526,9 +526,6 @@
 		BF5FFB2B1D6AAB8900CDE83D /* FlowDateChooseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowDateChooseViewController.h; sourceTree = "<group>"; };
 		BF5FFB2C1D6AAB8900CDE83D /* FlowDateChooseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowDateChooseViewController.m; sourceTree = "<group>"; };
 		BF5FFB2D1D6AAB8900CDE83D /* FlowDateChooseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlowDateChooseViewController.xib; sourceTree = "<group>"; };
-		BF5FFB331D6AEC0800CDE83D /* LFFPickerVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFFPickerVIew.h; sourceTree = "<group>"; };
-		BF5FFB341D6AEC0800CDE83D /* LFFPickerVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFFPickerVIew.m; sourceTree = "<group>"; };
-		BF5FFB361D6AEC2300CDE83D /* LFFPickerVIew.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LFFPickerVIew.xib; sourceTree = "<group>"; };
 		BF7CC2AB1D5601BA00E54980 /* UIView+ChangeFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ChangeFrame.h"; sourceTree = "<group>"; };
 		BF7CC2AC1D5601BA00E54980 /* UIView+ChangeFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ChangeFrame.m"; sourceTree = "<group>"; };
 		BF8181DC1D66DAD200ABA20E /* FlowDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowDetailViewController.h; sourceTree = "<group>"; };
@@ -548,6 +545,9 @@
 		BF91957F1D5B2E1300AC5371 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		BF9F7F511D6849DD00015D45 /* libLFFExcelVIew.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLFFExcelVIew.a; sourceTree = "<group>"; };
 		BF9F7F521D6849DD00015D45 /* LFFExcel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFFExcel.h; sourceTree = "<group>"; };
+		BFB3A9E31D6ED25D0082022F /* LFFPickerVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFFPickerVIew.h; sourceTree = "<group>"; };
+		BFB3A9E41D6ED25D0082022F /* LFFPickerVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFFPickerVIew.m; sourceTree = "<group>"; };
+		BFB3A9E51D6ED25D0082022F /* LFFPickerVIew.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LFFPickerVIew.xib; sourceTree = "<group>"; };
 		BFC124A21D519FD400CAFA12 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BFC124EE1D51C4EB00CAFA12 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		BFC125081D51C6F900CAFA12 /* PSTAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTAlertController.h; sourceTree = "<group>"; };
@@ -1485,6 +1485,16 @@
 			path = view;
 			sourceTree = "<group>";
 		};
+		BFB3A9E21D6ED25D0082022F /* LFFDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				BFB3A9E31D6ED25D0082022F /* LFFPickerVIew.h */,
+				BFB3A9E41D6ED25D0082022F /* LFFPickerVIew.m */,
+				BFB3A9E51D6ED25D0082022F /* LFFPickerVIew.xib */,
+			);
+			path = LFFDatePicker;
+			sourceTree = "<group>";
+		};
 		BFC124E41D51B49200CAFA12 /* SelfTabBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -1508,6 +1518,7 @@
 		BFC124E71D51B4F300CAFA12 /* 3rd */ = {
 			isa = PBXGroup;
 			children = (
+				BFB3A9E21D6ED25D0082022F /* LFFDatePicker */,
 				BF8181D31D66D4A100ABA20E /* LFFExcelView */,
 				BFFA56E61D545E9900A3FB20 /* DDMenuController */,
 				BFFA53CA1D543AE800A3FB20 /* LBXAlertAction */,
@@ -2034,9 +2045,6 @@
 		BFF151651D59794A00315ABD /* view */ = {
 			isa = PBXGroup;
 			children = (
-				BF5FFB331D6AEC0800CDE83D /* LFFPickerVIew.h */,
-				BF5FFB341D6AEC0800CDE83D /* LFFPickerVIew.m */,
-				BF5FFB361D6AEC2300CDE83D /* LFFPickerVIew.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -3064,6 +3072,7 @@
 				BFFA55FD1D543AE800A3FB20 /* ScanResultViewController.xib in Resources */,
 				BFF151961D59895B00315ABD /* Icon-40@3x.png in Resources */,
 				BF9195811D5B2E1300AC5371 /* HomeViewController.xib in Resources */,
+				BFB3A9E71D6ED25D0082022F /* LFFPickerVIew.xib in Resources */,
 				BF2E45FF1D619774002FC380 /* OpenUPViewController.xib in Resources */,
 				BF43E46E1D52EE120094B162 /* Info.plist in Resources */,
 				BFF151991D59895B00315ABD /* Icon-60@3x.png in Resources */,
@@ -3071,7 +3080,6 @@
 				BFF1516D1D59796600315ABD /* PayViewController.xib in Resources */,
 				BFF151A51D59895B00315ABD /* iTunesArtwork in Resources */,
 				BF81824B1D67081C00ABA20E /* AboutUSViewController.xib in Resources */,
-				BF5FFB371D6AEC2300CDE83D /* LFFPickerVIew.xib in Resources */,
 				BFFA67241D62BE3C00EBC28D /* PackagesAddViewController.xib in Resources */,
 				BFF151A31D59895B00315ABD /* Icon.png in Resources */,
 				BFF151AB1D59897D00315ABD /* Default@2x.png in Resources */,
@@ -3135,7 +3143,6 @@
 				BFFA569A1D543AE800A3FB20 /* ZXEANManufacturerOrgSupport.m in Sources */,
 				BFFA55EB1D543AE800A3FB20 /* UIAlertController+supportedInterfaceOrientations.m in Sources */,
 				BF43E4771D52EE120094B162 /* View+MASAdditions.m in Sources */,
-				BF5FFB351D6AEC0800CDE83D /* LFFPickerVIew.m in Sources */,
 				BFC125C41D51C92E00CAFA12 /* Utils.m in Sources */,
 				BFFA55FA1D543AE800A3FB20 /* LBXZXCapture.m in Sources */,
 				BF2E45F51D61604C002FC380 /* Tool.m in Sources */,
@@ -3411,6 +3418,7 @@
 				BFFA56C01D543AE800A3FB20 /* ZXPDF417ResultMetadata.m in Sources */,
 				BF2E45F91D618CCA002FC380 /* OpenSureViewController.m in Sources */,
 				BFC125BE1D51C92E00CAFA12 /* NSString+URLEncoding.m in Sources */,
+				BFB3A9E61D6ED25D0082022F /* LFFPickerVIew.m in Sources */,
 				BFFA568B1D543AE800A3FB20 /* ZXRSSDataCharacter.m in Sources */,
 				BF43E4751D52EE120094B162 /* NSArray+MASAdditions.m in Sources */,
 				BFFA55EC1D543AE800A3FB20 /* UIAlertView+LBXAlertAction.m in Sources */,
