@@ -37,6 +37,7 @@
 - (void)viewDidLoad {
      [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
     self.navigationItem.title = @"账户";
     _headImage.layer.masksToBounds = YES;
     _headImage.layer.cornerRadius = 34;
@@ -83,23 +84,42 @@
 }
 //开卡
 - (IBAction)openCard:(id)sender {
-    OpenSureViewController *op = [[OpenSureViewController alloc] initWithNibName:@"OpenSureViewController" bundle:nil];
-    op.hidesBottomBarWhenPushed = YES;
-    [self.navigationController pushViewController:op animated:YES];
-    
+    if ( [[Tool objectforkey:isSingIn] isEqualToString:SingNo]) {
+        SingViewController *s = [[SingViewController alloc] initWithNibName:@"SingViewController" bundle:nil];
+        [self presentViewController:s animated:YES completion:nil];
+    }else{
+        OpenSureViewController *op = [[OpenSureViewController alloc] initWithNibName:@"OpenSureViewController" bundle:nil];
+        op.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:op animated:YES];
+
+    }
+
+       
 }
 //我的卡
 - (IBAction)myCard:(id)sender {
-    MyCardViewController *my = [[MyCardViewController alloc] initWithNibName:@"MyCardViewController" bundle:nil];
-    my.hidesBottomBarWhenPushed = YES;
-    [self.navigationController pushViewController:my animated:YES];
+    if ( [[Tool objectforkey:isSingIn] isEqualToString:SingNo]) {
+        SingViewController *s = [[SingViewController alloc] initWithNibName:@"SingViewController" bundle:nil];
+        [self presentViewController:s animated:YES completion:nil];
+    }else{
+        MyCardViewController *my = [[MyCardViewController alloc] initWithNibName:@"MyCardViewController" bundle:nil];
+        my.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:my animated:YES];
+    }
+
+  
     
 }
 //交易记录
 - (IBAction)transRecode:(id)sender {
-    TransRecodeViewController *transR = [[TransRecodeViewController alloc] initWithNibName:@"TransRecodeViewController" bundle:nil];
-    transR.hidesBottomBarWhenPushed = YES;
-    [self.navigationController pushViewController:transR animated:YES];
+    if ( [[Tool objectforkey:isSingIn] isEqualToString:SingNo]) {
+        SingViewController *s = [[SingViewController alloc] initWithNibName:@"SingViewController" bundle:nil];
+        [self presentViewController:s animated:YES completion:nil];
+    }else{
+        TransRecodeViewController *transR = [[TransRecodeViewController alloc] initWithNibName:@"TransRecodeViewController" bundle:nil];
+        transR.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:transR animated:YES];
+    }
 
 }
 
@@ -180,34 +200,43 @@
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    if (indexPath.section == 0) {
+    
+    if ( [[Tool objectforkey:isSingIn] isEqualToString:SingNo]) {
+        SingViewController *s = [[SingViewController alloc] initWithNibName:@"SingViewController" bundle:nil];
+        [self presentViewController:s animated:YES completion:nil];
+    }else{
         
-    }
-    if (indexPath.section == 1) {
-        
-    }
-    if (indexPath.section == 2) {
-        if (indexPath.row == 0) {  //about us
-            AboutUSViewController * a = [[AboutUSViewController alloc] initWithNibName:@"AboutUSViewController" bundle:nil];
-            a.hidesBottomBarWhenPushed = YES;
-            [self.navigationController pushViewController:a animated:YES];
+        if (indexPath.section == 0) {
+            
         }
-        
-    }
-    if (indexPath.section == 3) {
-        if (indexPath.row == 0) {
-            if ([[Tool objectforkey:isSingIn] isEqualToString:SingYes]) {
-                [Tool setobject:SingNo forkey:isSingIn];
-                SingViewController *s = [[SingViewController alloc] initWithNibName:@"SingViewController" bundle:nil];
-                [self presentViewController:s animated:YES completion:nil];
-                _nameLab.text = @"立即登录";
-                _headImage.image = [UIImage imageNamed:@"头像"];
+        if (indexPath.section == 1) {
+            
+        }
+        if (indexPath.section == 2) {
+            if (indexPath.row == 0) {  //about us
+                AboutUSViewController * a = [[AboutUSViewController alloc] initWithNibName:@"AboutUSViewController" bundle:nil];
+                a.hidesBottomBarWhenPushed = YES;
+                [self.navigationController pushViewController:a animated:YES];
             }
-        }else{
-            // do nothing
+            
         }
-        
+        if (indexPath.section == 3) {
+            if (indexPath.row == 0) {
+                if ([[Tool objectforkey:isSingIn] isEqualToString:SingYes]) {
+                    [Tool setobject:SingNo forkey:isSingIn];
+                    SingViewController *s = [[SingViewController alloc] initWithNibName:@"SingViewController" bundle:nil];
+                    [self presentViewController:s animated:YES completion:nil];
+                    _nameLab.text = @"立即登录";
+                    _headImage.image = [UIImage imageNamed:@"头像"];
+                }
+            }else{
+                // do nothing
+            }
+            
+        }
+
     }
+
     
     
 }
