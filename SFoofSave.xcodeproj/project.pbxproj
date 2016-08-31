@@ -3023,7 +3023,7 @@
 				TargetAttributes = {
 					BF4D45EA1D51809500984ADA = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 6WZCYN6486;
+						DevelopmentTeam = 67S48FE7QB;
 					};
 				};
 			};
@@ -3557,7 +3557,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "8243d558-dd65-4485-821a-1441674ceaa6";
+				PROVISIONING_PROFILE = "123f1eaa-ee60-4fa4-af91-8bb0f0e906e4";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "armv7 armv7s arm64";
@@ -3598,7 +3598,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "8243d558-dd65-4485-821a-1441674ceaa6";
+				PROVISIONING_PROFILE = "123f1eaa-ee60-4fa4-af91-8bb0f0e906e4";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -3610,22 +3610,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = SFoofSave/PrefixHeader.pch;
 				INFOPLIST_FILE = SFoofSave/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/SFoofSave/3rd/ZBarSDK-master",
 					"$(PROJECT_DIR)/SFoofSave/3rd/LFFExcelView",
 				);
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jiefengPay.SFood;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiefeng.FlowCard.Description;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "8243d558-dd65-4485-821a-1441674ceaa6";
+				PROVISIONING_PROFILE = "123f1eaa-ee60-4fa4-af91-8bb0f0e906e4";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 arm64 armv7s";
 			};
@@ -3635,22 +3635,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = SFoofSave/PrefixHeader.pch;
 				INFOPLIST_FILE = SFoofSave/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/SFoofSave/3rd/ZBarSDK-master",
 					"$(PROJECT_DIR)/SFoofSave/3rd/LFFExcelView",
 				);
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jiefengPay.SFood;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiefeng.FlowCard.Description;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "8243d558-dd65-4485-821a-1441674ceaa6";
+				PROVISIONING_PROFILE = "123f1eaa-ee60-4fa4-af91-8bb0f0e906e4";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 arm64 armv7s";
 			};

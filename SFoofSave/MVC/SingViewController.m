@@ -9,6 +9,8 @@
 #import "SingViewController.h"
 
 @interface SingViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *accountLab;
+@property (weak, nonatomic) IBOutlet UITextField *smsCode;
 
 @end
 
@@ -29,7 +31,11 @@
 }
 //登录
 - (IBAction)singIN:(id)sender {
-    [Tool setobject:SingYes forkey:isSingIn];
+    if ([_accountLab.text isEqualToString:@"15151474388"] && [_smsCode.text isEqualToString:@"123456"]) {
+            [Tool setobject:SingYes forkey:isSingIn];
+    }
+    
+    
     
     if ([[Tool objectforkey:isSingIn] isEqualToString:SingYes]) {
         [self dismissViewControllerAnimated:YES completion:nil];
