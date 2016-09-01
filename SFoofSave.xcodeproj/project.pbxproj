@@ -3055,7 +3055,7 @@
 				TargetAttributes = {
 					BF4D45EA1D51809500984ADA = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 6WZCYN6486;
+						DevelopmentTeam = 67S48FE7QB;
 					};
 				};
 			};
@@ -3589,7 +3589,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "8243d558-dd65-4485-821a-1441674ceaa6";
+				PROVISIONING_PROFILE = "123f1eaa-ee60-4fa4-af91-8bb0f0e906e4";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "armv7 armv7s arm64";
@@ -3630,7 +3630,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "8243d558-dd65-4485-821a-1441674ceaa6";
+				PROVISIONING_PROFILE = "123f1eaa-ee60-4fa4-af91-8bb0f0e906e4";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -3660,9 +3660,9 @@
 					"$(PROJECT_DIR)/SFoofSave/3rd/LFFExcelView",
 				);
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jiefengPay.SFood;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiefeng.FlowCard.Description;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "8243d558-dd65-4485-821a-1441674ceaa6";
+				PROVISIONING_PROFILE = "123f1eaa-ee60-4fa4-af91-8bb0f0e906e4";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 arm64 armv7s";
 			};
@@ -3690,9 +3690,9 @@
 					"$(PROJECT_DIR)/SFoofSave/3rd/LFFExcelView",
 				);
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jiefengPay.SFood;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiefeng.FlowCard.Description;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "8243d558-dd65-4485-821a-1441674ceaa6";
+				PROVISIONING_PROFILE = "123f1eaa-ee60-4fa4-af91-8bb0f0e906e4";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 arm64 armv7s";
 			};
