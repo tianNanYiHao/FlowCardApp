@@ -178,6 +178,10 @@
 		BFF151AD1D59897D00315ABD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BFF151AA1D59897D00315ABD /* Default.png */; };
 		BFF151B91D59B98100315ABD /* JFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF151B81D59B98100315ABD /* JFTabBarController.m */; };
 		BFF151BC1D59CC1C00315ABD /* JFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF151BB1D59CC1C00315ABD /* JFNavigationController.m */; };
+		BFFA107B1D77CA490032A6E5 /* Bugly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFA107A1D77CA480032A6E5 /* Bugly.framework */; };
+		BFFA107D1D77CA6A0032A6E5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFA107C1D77CA6A0032A6E5 /* SystemConfiguration.framework */; };
+		BFFA107F1D77CA730032A6E5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFA107E1D77CA730032A6E5 /* Security.framework */; };
+		BFFA10811D77CA7D0032A6E5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFA10801D77CA7D0032A6E5 /* libz.tbd */; };
 		BFFA53C01D542F4A00A3FB20 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BFFA53AA1D542F4A00A3FB20 /* IQKeyboardManager.bundle */; };
 		BFFA53C11D542F4A00A3FB20 /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFA53AC1D542F4A00A3FB20 /* IQKeyboardManager.m */; };
 		BFFA53C21D542F4A00A3FB20 /* IQSegmentedNextPrevious.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFA53B01D542F4A00A3FB20 /* IQSegmentedNextPrevious.m */; };
@@ -760,6 +764,10 @@
 		BFF151B81D59B98100315ABD /* JFTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFTabBarController.m; sourceTree = "<group>"; };
 		BFF151BA1D59CC1C00315ABD /* JFNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFNavigationController.h; sourceTree = "<group>"; };
 		BFF151BB1D59CC1C00315ABD /* JFNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFNavigationController.m; sourceTree = "<group>"; };
+		BFFA107A1D77CA480032A6E5 /* Bugly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bugly.framework; sourceTree = "<group>"; };
+		BFFA107C1D77CA6A0032A6E5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BFFA107E1D77CA730032A6E5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BFFA10801D77CA7D0032A6E5 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		BFFA53AA1D542F4A00A3FB20 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
 		BFFA53AB1D542F4A00A3FB20 /* IQKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManager.h; sourceTree = "<group>"; };
 		BFFA53AC1D542F4A00A3FB20 /* IQKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardManager.m; sourceTree = "<group>"; };
@@ -1314,6 +1322,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFFA10811D77CA7D0032A6E5 /* libz.tbd in Frameworks */,
+				BFFA107F1D77CA730032A6E5 /* Security.framework in Frameworks */,
+				BFFA107D1D77CA6A0032A6E5 /* SystemConfiguration.framework in Frameworks */,
+				BFFA107B1D77CA490032A6E5 /* Bugly.framework in Frameworks */,
 				BFC126481D51CD0100CAFA12 /* libsqlite3.tbd in Frameworks */,
 				BF9F7F531D6849DD00015D45 /* libLFFExcelVIew.a in Frameworks */,
 			);
@@ -1358,6 +1370,9 @@
 		BF4D45E21D51809500984ADA = {
 			isa = PBXGroup;
 			children = (
+				BFFA10801D77CA7D0032A6E5 /* libz.tbd */,
+				BFFA107E1D77CA730032A6E5 /* Security.framework */,
+				BFFA107C1D77CA6A0032A6E5 /* SystemConfiguration.framework */,
 				BFC126471D51CD0100CAFA12 /* libsqlite3.tbd */,
 				BF4D45ED1D51809500984ADA /* SFoofSave */,
 				BF4D46071D51809500984ADA /* SFoofSaveTests */,
@@ -1384,6 +1399,7 @@
 				BFF1515B1D59785D00315ABD /* MVC */,
 				BFC124E61D51B4E700CAFA12 /* Tool */,
 				BFC124E71D51B4F300CAFA12 /* 3rd */,
+				BFFA10791D77CA480032A6E5 /* FrameWork */,
 				BFF151801D59895B00315ABD /* icon */,
 				BFF151A71D59897400315ABD /* defualtImage */,
 				BF4D45F71D51809500984ADA /* Main.storyboard */,
@@ -2125,6 +2141,14 @@
 				BFF151AA1D59897D00315ABD /* Default.png */,
 			);
 			path = defualtImage;
+			sourceTree = "<group>";
+		};
+		BFFA10791D77CA480032A6E5 /* FrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				BFFA107A1D77CA480032A6E5 /* Bugly.framework */,
+			);
+			path = FrameWork;
 			sourceTree = "<group>";
 		};
 		BFFA53A91D542F4A00A3FB20 /* IQKeyBoardManager */ = {
@@ -3023,7 +3047,7 @@
 				TargetAttributes = {
 					BF4D45EA1D51809500984ADA = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 6WZCYN6486;
+						DevelopmentTeam = 67S48FE7QB;
 					};
 				};
 			};
@@ -3557,7 +3581,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "8243d558-dd65-4485-821a-1441674ceaa6";
+				PROVISIONING_PROFILE = "123f1eaa-ee60-4fa4-af91-8bb0f0e906e4";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "armv7 armv7s arm64";
@@ -3598,7 +3622,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "8243d558-dd65-4485-821a-1441674ceaa6";
+				PROVISIONING_PROFILE = "123f1eaa-ee60-4fa4-af91-8bb0f0e906e4";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -3612,8 +3636,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
+				CODE_SIGN_RESOURCE_RULES_PATH = "";
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SFoofSave/FrameWork",
+				);
 				GCC_PREFIX_HEADER = SFoofSave/PrefixHeader.pch;
 				INFOPLIST_FILE = SFoofSave/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
@@ -3623,9 +3651,9 @@
 					"$(PROJECT_DIR)/SFoofSave/3rd/LFFExcelView",
 				);
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jiefengPay.SFood;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiefeng.FlowCard.Description;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "8243d558-dd65-4485-821a-1441674ceaa6";
+				PROVISIONING_PROFILE = "123f1eaa-ee60-4fa4-af91-8bb0f0e906e4";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 arm64 armv7s";
 			};
@@ -3637,8 +3665,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
+				CODE_SIGN_RESOURCE_RULES_PATH = "";
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SFoofSave/FrameWork",
+				);
 				GCC_PREFIX_HEADER = SFoofSave/PrefixHeader.pch;
 				INFOPLIST_FILE = SFoofSave/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
@@ -3648,9 +3680,9 @@
 					"$(PROJECT_DIR)/SFoofSave/3rd/LFFExcelView",
 				);
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jiefengPay.SFood;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiefeng.FlowCard.Description;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "8243d558-dd65-4485-821a-1441674ceaa6";
+				PROVISIONING_PROFILE = "123f1eaa-ee60-4fa4-af91-8bb0f0e906e4";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 arm64 armv7s";
 			};
