@@ -15,7 +15,7 @@
 #import "SearchViewController.h"
 #import "AccountViewController.h"
 #import "JFTabBarController.h"
-#import <Bugly/Bugly.h>
+ #import <Bugly/Bugly.h>
 
 
 
@@ -29,6 +29,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+//    [Bugly startWithAppId:@"a24c517102"];
     [Bugly startWithAppId:@"a24c517102"];
     
     [IQKeyboardManager sharedManager];
