@@ -69,6 +69,7 @@
 #import "UIViewController+LeftItemSSL.h"
 #import "SingViewController.h"
 #import "LFFExcel.h"
+#import "JPUSHService.h"
 
 
 #endif

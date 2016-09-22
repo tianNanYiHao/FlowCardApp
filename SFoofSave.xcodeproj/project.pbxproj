@@ -59,6 +59,14 @@
 		BF81824B1D67081C00ABA20E /* AboutUSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF8182491D67081C00ABA20E /* AboutUSViewController.xib */; };
 		BF9195801D5B2E1300AC5371 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF91957E1D5B2E1300AC5371 /* HomeViewController.m */; };
 		BF9195811D5B2E1300AC5371 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF91957F1D5B2E1300AC5371 /* HomeViewController.xib */; };
+		BF99C1B11D926A1B00319831 /* jpush-ios-2.1.9.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF99C1AF1D926A1B00319831 /* jpush-ios-2.1.9.a */; };
+		BF99C1B61D926A7300319831 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF99C1B51D926A7300319831 /* CoreFoundation.framework */; };
+		BF99C1B81D926A8100319831 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF99C1B71D926A8100319831 /* CoreTelephony.framework */; };
+		BF99C1BA1D926A9000319831 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF99C1B91D926A9000319831 /* CoreGraphics.framework */; };
+		BF99C1BC1D926A9900319831 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF99C1BB1D926A9900319831 /* Foundation.framework */; };
+		BF99C1BE1D926AA300319831 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF99C1BD1D926AA300319831 /* UIKit.framework */; };
+		BF99C1BF1D926BC900319831 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF99C1B31D926A4D00319831 /* CFNetwork.framework */; };
+		BF99C1C11D926BEE00319831 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF99C1C01D926BEE00319831 /* UserNotifications.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		BF9F7F531D6849DD00015D45 /* libLFFExcelVIew.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9F7F511D6849DD00015D45 /* libLFFExcelVIew.a */; };
 		BFB3A9E61D6ED25D0082022F /* LFFPickerVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB3A9E41D6ED25D0082022F /* LFFPickerVIew.m */; };
 		BFB3A9E71D6ED25D0082022F /* LFFPickerVIew.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFB3A9E51D6ED25D0082022F /* LFFPickerVIew.xib */; };
@@ -551,6 +559,16 @@
 		BF91957D1D5B2E1300AC5371 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		BF91957E1D5B2E1300AC5371 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		BF91957F1D5B2E1300AC5371 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		BF99C1AF1D926A1B00319831 /* jpush-ios-2.1.9.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-2.1.9.a"; sourceTree = "<group>"; };
+		BF99C1B01D926A1B00319831 /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
+		BF99C1B31D926A4D00319831 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		BF99C1B51D926A7300319831 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		BF99C1B71D926A8100319831 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		BF99C1B91D926A9000319831 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BF99C1BB1D926A9900319831 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF99C1BD1D926AA300319831 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BF99C1C01D926BEE00319831 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		BF99C1C21D926C0F00319831 /* SFoofSave.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SFoofSave.entitlements; sourceTree = "<group>"; };
 		BF9F7F511D6849DD00015D45 /* libLFFExcelVIew.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLFFExcelVIew.a; sourceTree = "<group>"; };
 		BF9F7F521D6849DD00015D45 /* LFFExcel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFFExcel.h; sourceTree = "<group>"; };
 		BFB3A9E31D6ED25D0082022F /* LFFPickerVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFFPickerVIew.h; sourceTree = "<group>"; };
@@ -1328,12 +1346,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF99C1C11D926BEE00319831 /* UserNotifications.framework in Frameworks */,
+				BF99C1BF1D926BC900319831 /* CFNetwork.framework in Frameworks */,
+				BFFA10811D77CA7D0032A6E5 /* libz.tbd in Frameworks */,
+				BFFA107F1D77CA730032A6E5 /* Security.framework in Frameworks */,
+				BF99C1BE1D926AA300319831 /* UIKit.framework in Frameworks */,
+				BF99C1BC1D926A9900319831 /* Foundation.framework in Frameworks */,
+				BF99C1BA1D926A9000319831 /* CoreGraphics.framework in Frameworks */,
+				BFFA107D1D77CA6A0032A6E5 /* SystemConfiguration.framework in Frameworks */,
+				BF99C1B81D926A8100319831 /* CoreTelephony.framework in Frameworks */,
+				BF99C1B61D926A7300319831 /* CoreFoundation.framework in Frameworks */,
 				BFFA108B1D77D8EC0032A6E5 /* libc++.tbd in Frameworks */,
 				BFFA10881D77D7E10032A6E5 /* JavaScriptCore.framework in Frameworks */,
 				BFFA10861D77D50F0032A6E5 /* Bugly.framework in Frameworks */,
-				BFFA10811D77CA7D0032A6E5 /* libz.tbd in Frameworks */,
-				BFFA107F1D77CA730032A6E5 /* Security.framework in Frameworks */,
-				BFFA107D1D77CA6A0032A6E5 /* SystemConfiguration.framework in Frameworks */,
+				BF99C1B11D926A1B00319831 /* jpush-ios-2.1.9.a in Frameworks */,
 				BFC126481D51CD0100CAFA12 /* libsqlite3.tbd in Frameworks */,
 				BF9F7F531D6849DD00015D45 /* libLFFExcelVIew.a in Frameworks */,
 			);
@@ -1378,16 +1404,12 @@
 		BF4D45E21D51809500984ADA = {
 			isa = PBXGroup;
 			children = (
-				BFFA10891D77D82D0032A6E5 /* libc++.tbd */,
-				BFFA10871D77D7E10032A6E5 /* JavaScriptCore.framework */,
-				BFFA10801D77CA7D0032A6E5 /* libz.tbd */,
-				BFFA107E1D77CA730032A6E5 /* Security.framework */,
-				BFFA107C1D77CA6A0032A6E5 /* SystemConfiguration.framework */,
-				BFC126471D51CD0100CAFA12 /* libsqlite3.tbd */,
+				BF99C1AD1D92698300319831 /* Framework */,
 				BF4D45ED1D51809500984ADA /* SFoofSave */,
 				BF4D46071D51809500984ADA /* SFoofSaveTests */,
 				BF4D46121D51809500984ADA /* SFoofSaveUITests */,
 				BF4D45EC1D51809500984ADA /* Products */,
+				BF99C1B21D926A4D00319831 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1402,6 +1424,7 @@
 		BF4D45ED1D51809500984ADA /* SFoofSave */ = {
 			isa = PBXGroup;
 			children = (
+				BF99C1C21D926C0F00319831 /* SFoofSave.entitlements */,
 				BF4D45F11D51809500984ADA /* MyAppDelegate.h */,
 				BF4D45F21D51809500984ADA /* MyAppDelegate.m */,
 				BFF1514C1D59762B00315ABD /* SelfNavigationController */,
@@ -1511,6 +1534,42 @@
 			path = view;
 			sourceTree = "<group>";
 		};
+		BF99C1AD1D92698300319831 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				BFC126471D51CD0100CAFA12 /* libsqlite3.tbd */,
+				BFFA10801D77CA7D0032A6E5 /* libz.tbd */,
+				BFFA107C1D77CA6A0032A6E5 /* SystemConfiguration.framework */,
+				BFFA107E1D77CA730032A6E5 /* Security.framework */,
+				BFFA10871D77D7E10032A6E5 /* JavaScriptCore.framework */,
+				BFFA10891D77D82D0032A6E5 /* libc++.tbd */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		BF99C1AE1D926A0B00319831 /* JpushSDK */ = {
+			isa = PBXGroup;
+			children = (
+				BF99C1AF1D926A1B00319831 /* jpush-ios-2.1.9.a */,
+				BF99C1B01D926A1B00319831 /* JPUSHService.h */,
+			);
+			path = JpushSDK;
+			sourceTree = "<group>";
+		};
+		BF99C1B21D926A4D00319831 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF99C1C01D926BEE00319831 /* UserNotifications.framework */,
+				BF99C1BD1D926AA300319831 /* UIKit.framework */,
+				BF99C1BB1D926A9900319831 /* Foundation.framework */,
+				BF99C1B91D926A9000319831 /* CoreGraphics.framework */,
+				BF99C1B71D926A8100319831 /* CoreTelephony.framework */,
+				BF99C1B51D926A7300319831 /* CoreFoundation.framework */,
+				BF99C1B31D926A4D00319831 /* CFNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BFB3A9E21D6ED25D0082022F /* LFFDatePicker */ = {
 			isa = PBXGroup;
 			children = (
@@ -1544,6 +1603,7 @@
 		BFC124E71D51B4F300CAFA12 /* 3rd */ = {
 			isa = PBXGroup;
 			children = (
+				BF99C1AE1D926A0B00319831 /* JpushSDK */,
 				BFB3A9E21D6ED25D0082022F /* LFFDatePicker */,
 				BF8181D31D66D4A100ABA20E /* LFFExcelView */,
 				BFFA56E61D545E9900A3FB20 /* DDMenuController */,
@@ -3059,6 +3119,12 @@
 					BF4D45EA1D51809500984ADA = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 67S48FE7QB;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -3570,6 +3636,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -3593,7 +3660,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "123f1eaa-ee60-4fa4-af91-8bb0f0e906e4";
+				PROVISIONING_PROFILE = "3bea6ee4-fed7-4b0e-ac37-fb56bd220c43";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "armv7 armv7s arm64";
@@ -3618,6 +3685,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -3634,7 +3702,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "123f1eaa-ee60-4fa4-af91-8bb0f0e906e4";
+				PROVISIONING_PROFILE = "3bea6ee4-fed7-4b0e-ac37-fb56bd220c43";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -3647,9 +3715,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_RESOURCE_RULES_PATH = "";
+				DEVELOPMENT_TEAM = 67S48FE7QB;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3663,11 +3732,13 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SFoofSave/3rd/LFFExcelView",
+					"$(PROJECT_DIR)/SFoofSave/3rd/JpushSDK",
 				);
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jiefeng.FlowCard.Description;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JieFengPay.bmjfsh.Distribution;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "123f1eaa-ee60-4fa4-af91-8bb0f0e906e4";
+				PROVISIONING_PROFILE = "90633e79-15c6-4763-94b8-319dd9197e98";
+				PROVISIONING_PROFILE_SPECIFIER = com.JieFengPay.bmjfsh.Distribution;
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 arm64 armv7s";
 			};
@@ -3678,9 +3749,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_RESOURCE_RULES_PATH = "";
+				DEVELOPMENT_TEAM = 67S48FE7QB;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3694,11 +3766,13 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SFoofSave/3rd/LFFExcelView",
+					"$(PROJECT_DIR)/SFoofSave/3rd/JpushSDK",
 				);
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jiefeng.FlowCard.Description;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JieFengPay.bmjfsh.Distribution;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "123f1eaa-ee60-4fa4-af91-8bb0f0e906e4";
+				PROVISIONING_PROFILE = "25c17071-4197-4921-b670-524cae108f46";
+				PROVISIONING_PROFILE_SPECIFIER = com.JieFengPay.bmjfsh.Distribution;
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 arm64 armv7s";
 			};
