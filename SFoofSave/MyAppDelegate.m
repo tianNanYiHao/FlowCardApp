@@ -15,13 +15,11 @@
 #import "SearchViewController.h"
 #import "AccountViewController.h"
 #import "JFTabBarController.h"
- #import <Bugly/Bugly.h>
-
+#import <Bugly/Bugly.h>
 
 
 
 @interface MyAppDelegate ()
-
 @end
 
 @implementation MyAppDelegate
