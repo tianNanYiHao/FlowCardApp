@@ -430,53 +430,5 @@ enum{
 
 
 
-//中农信合(溯源商城和跨境电商)产品列表接口
-- (void)getProductIdWithCardId:(NSString*)cardId;
-- (void)sendInfo;
-- (void)getAD;
-- (void)getProductWithCardId:(NSString*)cardId;
-- (void)getInfoWithMobile:(NSString*)mobile;
-- (void)getDetailInfoWithProductId:(NSString*)productId withTraceabilityId:(NSString*)traceabilityId;
-- (void)getMoneyInfoWithProductId:(NSString*)productId productList:(id)productlist;
-- (void)getTodyKillProductWithCardId:(NSString*)cardId;//今日秒杀商城
-//- (void)getTodyKillProductWithCateId:(NSString*)cateId;//今日秒杀商城
-- (void)getMastmallProductWithCardId:(NSString*)cateId;//百步商城
-- (void)getCrossBorderProductWithCardId:(NSString*)cateId;//跨境电商
-- (void)gettotalMoneyWithProductLists:(NSArray*)productlists withMobile:(NSString *)mobile withTotal:(NSString*)total;
-//产品详情里--商品溯源接口
-- (void)getproductId:(NSString*)productId;
-
-/**************************独立商品溯源************************************/
-// 查询溯源企业
-- (void)getCompanySYwihtName:(NSString*)name fieldNames:(NSString*)fieldNames regionCity:(NSString*)regionCity pageNo:(NSString*)pageNo pageSize:(NSString*)pageSize Bool:(BOOL)yes;
-/**
- * 根据企业ID、条码或名称查询匹配的企业产品列表
- */
--(void)getCompanyListWithID:(NSString*)ID pageNo:(NSString*)pageNO pageSize:(NSString*)pagesize;
-/**
- *3.4根据ID的产品查询
- */
-- (void)getProductInfoWihtID:(NSString*)ID;
-/**
- *3.5最近三笔三笔进货记录查询
- */
-- (void)getProductInfoNearLyThreeList:(NSString*)CodeID;
-/**
- *3.6追溯码的追溯查询
- */
--(void)getProductNodeListProductID:(NSString*)ID productionDate:(NSString*)date batch:(NSString*)batch;
-
-//3.2平台产品分类查询
--(void)getProductSYcategories;
-/**7
- * 根据产品名称查产品列表
- * */
--(void)getProductSYcategoriesWithName:(NSString*)name pageNo:(NSString*)pageNo pageSIze:(NSString*)pageSize;
-//**6snCode搜索
-- (void)getProductSYInfoByScCode:(NSString*)code;
-// 投诉接口
-- (void)postComplaintWithtagId:(NSString*)tagId tagSn:(NSString*)tagSn tagSnProducerCode:(NSString*)tagSnProducerCode enterpriseId:(NSString*)enterpriseId productId:(NSString*)productId  userName:(NSString*)userName mobile:(NSString*)mobile comments:(NSString*)comments;
-
-
 
 @end

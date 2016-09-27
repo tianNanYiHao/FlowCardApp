@@ -16,6 +16,7 @@
 #import "AccountViewController.h"
 #import "JFTabBarController.h"
 #import <Bugly/Bugly.h>
+#define STOREAPPID @"1149271784"
 
 
 
@@ -24,13 +25,9 @@
 
 @implementation MyAppDelegate
 
-
-
-
-
 -(void)Jpush:(NSDictionary*)launchOptions{
     //启动JPushSDK
-    [JPUSHService setupWithOption:launchOptions appKey:@"7060c76b204c07800b75dd86" channel:nil apsForProduction:NO];
+    [JPUSHService setupWithOption:launchOptions appKey:@"7060c76b204c07800b75dd86" channel:nil apsForProduction:YES];
     
     //注册通知类型
     //方式一
@@ -48,19 +45,15 @@
                                               categories:nil];
     }
     
-    //方式二
-    //    JPUSHRegisterEntity *entity = [[JPUSHRegisterEntity alloc] init];
-    //    entity.types = (UIUserNotificationTypeBadge |
-    //                   UIUserNotificationTypeSound |
-    //                   UIUserNotificationTypeAlert);
-    //    entity.categories = nil;
-    //    [JPUSHService registerForRemoteNotificationConfig:entity delegate:self];
-    
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-//    [Bugly startWithAppId:@"a24c517102"];
+    
+    //一句代码实现检测更新
+    [self hsupdateAppFromAppStore];
+    
+    //    [Bugly startWithAppId:@"a24c517102"];
     [Bugly startWithAppId:@"a24c517102"];
     [self Jpush:launchOptions];
     [IQKeyboardManager sharedManager];
@@ -177,6 +170,55 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+-(void)hsupdateAppFromAppStore{
+    //2先获取当前工程项目版本号
+    NSDictionary *infoDic=[[NSBundle mainBundle] infoDictionary];
+    NSString *currentVersion=infoDic[@"CFBundleShortVersionString"];
+    AFHTTPSessionManager *manager  = [AFHTTPSessionManager manager];
+    manager.requestSerializer =[AFHTTPRequestSerializer serializer];
+    manager.responseSerializer.acceptableContentTypes =  [NSSet setWithObjects:@"text/html",@"text/plain",@"application/json",@"text/javascript",nil];
+    NSString *urlStr = [NSString stringWithFormat:@"http://itunes.apple.com/cn/lookup?id=%@",STOREAPPID];
+    
+    [manager POST:urlStr parameters:nil constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
+        
+    } progress:^(NSProgress * _Nonnull uploadProgress) {
+    } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        
+        NSArray *array = responseObject[@"results"];
+        NSDictionary *dic = array[0];
+        NSString *appStoreVersion = dic[@"version"];
+        //打印版本号
+        NSLog(@"当前版本号:%@\n商店版本号:%@",currentVersion,appStoreVersion);
+        //4当前版本号小于商店版本号,就更新
+        int intSV = [[currentVersion stringByReplacingOccurrencesOfString:@"." withString:@""] intValue];
+        int intAV = [[appStoreVersion stringByReplacingOccurrencesOfString:@"." withString:@""] intValue];
+        
+        if(intSV < intAV)
+        {
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"版本有更新" message:[NSString stringWithFormat:@"检测到新版本(%@),是否更新?",appStoreVersion] delegate:self cancelButtonTitle:@"退出App"otherButtonTitles:@"更新",nil];
+            [alert show];
+            
+        }else{
+            NSLog(@"版本号好像比商店大噢!检测到不需要更新");
+        }
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        
+    }];
+}
+
+- (void)alertView:(UIAlertView*)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    //5实现跳转到应用商店进行更新
+    if(buttonIndex==1)
+    {
+        //6此处加入应用在app store的地址，方便用户去更新，一种实现方式如下：
+        NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"https://itunes.apple.com/us/app/id%@?ls=1&mt=8", STOREAPPID]];
+        [[UIApplication sharedApplication] openURL:url];
+    }else{
+        exit(0);
+    }
 }
 
 @end
